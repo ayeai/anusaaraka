@@ -1,0 +1,16 @@
+
+  Sentence_debugging ::
+  ==================
+     > cd sentence_debug
+     > sh ../sentence_debug.sh <file_name> <sentence_number>      Ex:  sh ../sentence_debug.sh  mytest  2.1
+
+
+   to run:
+   =======
+
+   sh debug.sh <file-name> <sent-no>
+ 
+   Ex:   sh debug.sh test 2.1 
+
+   freemind debug.mm
+

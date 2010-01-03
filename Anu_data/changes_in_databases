@@ -1,0 +1,89 @@
+
+  changes in  default_meaning_frm_oldwsd.txt
+  ==========================================
+  1. Modified   in-law_word     sasurAla-vAlA     as      in-law           sasurAla
+                maturity        prODawA           as      maturity         paripakvawA
+  2. Modified   electronic  ilEktrona_kI_kriyA_para_nirBara_sAXana   as electronic	ilEktronika
+    (suggestted by Dipti Madam as frequency of ilEktrona_kI_kriyA_para_nirBara_sAXana is less when compared to ilEktronika)
+  3. Added  
+	attorney-at-law   pramANiwa_aBikarwA
+	Delhi	          xillI
+        Moon              canxramA
+	Danes             denmArka_vAsI
+  4. Modified idea meaning "suJAva" to "vicAra" (suggested by sukadha (23-09-09) Eg sen :: "It is not a good idea to drive for hours without a rest . ")
+
+  5. Corrected curious jijFAsu_   ----------- curious jijFAsu 
+  6. Modified  pianist "piyAno_bajAnevAlA"  as  "piyAno_bajAne_vAlA"
+
+  changes in male_list.txt
+  ========================
+  1. Removed  miwra from male list
+
+ 
+  changes in female_list.txt
+  ========================
+  1. Modified  paraCAIM  as  paraCAI
+  2. Added "SuBakAmanA" (02-11-09) Suggested by sheetal Eg: We convey our best wishes to the Chinmaya Dham Yatris . 
+  3. Removed "mana"   (19-11-09)   Suggested by sheetal Eg: The big question on everybody's mind is who killed OJ .
+             "vAlA"   (24-11-09)   Suggested by Meenaji Eg: Which one is right for me ?  
+             "lAla"   (09-12-09)   Suggested by Sheetal Eg: If we heat iron it becomes red .
+ 
+  changes in Phrv.txt 
+  ===================
+  1.  Added
+       divide_up       bAzta_xe
+
+
+  changes in hindi_tam_rules.clp (tam.csv)
+  ========================================
+  1. Added
+       		 eng_tam                                           hin_tam
+
+	   have_to_keep_ing                                      we_rahanA_hE
+	   were_unable_to_0 | was_unable_to_0                    nahIM + 0_pAwA_wA
+	   am_unable_to_0   | are_unable_to_0 | is_unable_to_0   nahIM + 0_pAwA_hE
+	   were_able_to_0   | was_able_to_0                      0_pAwA_wA
+	   am_able_to_0     | are_able_to_0   | is_able_to_0     0_pAwA_hE
+	   will_be_able_to_0                                     0_pAyegA
+
+
+  changes in hindi_cat.txt
+  ========================
+  1. Added
+	 paDa	T
+
+
+  changes in kriyA_mUla-gender.txt
+  ================================
+  1. Added  ASA_kara        f
+  2. Added  upekRA_kara     f
+
+  changes in samAsa-new.txt
+  =========================
+  1. Added 
+	 train accident              ----  rela_xurGatanA
+	 damn shame                  ----  awyanwa_lajjAspaxa
+         language accessing software ----  BARA_aBigamana_praNAlI (suggested by Chaitanya sir --Eg:- "Anusaaraka is an 
+                                           English-Hindi language accessing software." (17-09-09)
+         best wishes                 ----  SuBakAmanA (Added by Sriram (02-11-09))
+         Warm welcome                ----  hArxika_svAgata (Added by Sriram (02-11-09))
+         income taxes                ----  Aya_kara        (Suggested by Meenaji (4-12-09))
+
+ 2. Removed
+        in law    ----  sasurAla_vAlA    (there should be - between in and law i.e., in-law)
+        with that ----  usake_sAWa
+        thank you ----  XanyavAxa        (sugessted by Chaitanya sir (04-11-09)) Eg :-Thank you all for coming this evening .
+
+ 3. Modified
+        turned out to be -----  nikalA    ====  turned out to be        nikala  (suggested by sheetal (04-11-09) Eg:- The object turned out to be a big meteorite .)
+
+
+ changes in Complete_sentence.txt
+ ================================
+  1. Added  
+         Chinmaya International Foundation  ----  cinmaya_anwarrARtrIya_saMsWA  (Added by Sriram (02-11-09))
+         Welcome you all                    ----  Apa_saba_kA_svAgata           (Added by Sriram (02-11-09))
+
+  changes in AllTam.txt
+  =====================
+  1. Modified   yA_huA_hE,m,s,u huA_hEM"  as  "yA_huA_hE,m,s,u huA_hUz (Suggested by sheetal(10-12-09))

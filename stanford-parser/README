@@ -1,0 +1,8 @@
+     Command to run stanford parser
+     ------------------------------
+                      
+              Anusaaraka_stanford.sh  <file_name>     Ex :  Anusaaraka_stanford.sh verified
+
+      Note : Currently stanford parser is used in case if "No complete linkage Found" in Link-parser
+             (presently stanford to paninian relations mapping is under progress)
+      TODO : POS , pada formation ..etc extraction from stanford --- yet to be done.

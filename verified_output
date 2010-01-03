@@ -1,0 +1,2262 @@
+Saving Format info ...
+Saving word information
+Saving morph information
+Calling POS Tagger and Chunker (APERTIUM)
+Calling Link Parser
+Calling Stanford parser
+matching compounds......
+Hindi meaning using Stanford parser 1.1
+Test . 
+#parIkRA
+
+Hindi meaning using Link parser 2.1
+(Found maximum of 1 linkages )
+He has been frequently coming . 
+vaha bahuXA AwA rahA hE
+
+Hindi meaning using Link parser 2.2
+(Found maximum of 2 linkages )
+She is sleeping . 
+vaha so rahI hE
+
+Hindi meaning using Link parser 2.3
+(Found maximum of 1 linkages )
+Rama is a good boy . 
+\@Rama eka acCA ladakA hE
+
+Hindi meaning using Link parser 2.4
+(Found maximum of 2 linkages )
+This is a sample sentence for Anusaraka . 
+#yaha \@Anusaraka ke liye #namUnA vAkya hE
+
+Hindi meaning using Link parser 2.5
+(Found maximum of 10 linkages )
+A fat ugly boy had to eat fruits . 
+eka mote kurUpa ladake ko Pala KAne pade
+
+Hindi meaning using Link parser 2.6
+(Found maximum of 8 linkages )
+A fat boy had to eat . 
+eka #BArI ladake ko KAnA padA
+
+Hindi meaning using Link parser 2.7
+(Found maximum of 5 linkages )
+I will give up smoking . 
+mEM XUmrapAna Coda xUzgA
+
+Hindi meaning using Link parser 2.8
+(Found maximum of 3 linkages )
+I am eating fruits . 
+mEM Pala KA rahA hUz
+
+Hindi meaning using Link parser 2.9
+(Found maximum of 2 linkages )
+They may have eaten fruits . 
+unhoMne Pala KAye/KAe hoMge
+
+Hindi meaning using Link parser 2.10
+(Found maximum of 2 linkages )
+Has he been coming ? 
+kyA vaha AwA rahA hE
+
+Hindi meaning using Link parser 2.11
+(Found maximum of 8 linkages )
+All are going to school . 
+#saba vixyAlaya jA rahe hEM
+
+Hindi meaning using Link parser 2.12
+(Found maximum of 3 linkages )
+He may drink milk or eat apples . 
+vaha xUXa pI sakawA hE #yA seba KA sakawA hE
+
+Hindi meaning using Link parser 2.13
+(Found maximum of 80 linkages )
+A fat ugly boy had to eat too many fruits to lose his weight . 
+eka mote kurUpa ladake ko usakA vajana Kone ke liye bahuwa #aXika Pala KAne pade
+
+Hindi meaning using Link parser 2.14
+(Found maximum of 1 linkages )
+He attacked the enemy . 
+usane Sawru para hamalA kiyA
+
+Hindi meaning using Link parser 2.15
+(Found maximum of 1 linkages )
+Mohan fell from the top of the house . 
+\@Mohan Gara ke sarvocca sWAna se girA
+
+Hindi meaning using Link parser 2.16
+(Found maximum of 1 linkages )
+We had wasted our journey . 
+#hama hamArI yAwrA vyarWa_meM_barabAxa_kara cuke We
+
+Hindi meaning using Link parser 2.17
+(Found maximum of 3 linkages )
+He heard the sound of rain from the kitchen . 
+usane rasoIGara se varRA kI AvAja ko sunA
+
+Hindi meaning using Link parser 2.18
+(Found maximum of 4 linkages )
+The landlord had to back down . 
+makAna mAlika ko xAvA_Coda xenA padA
+
+Hindi meaning using Link parser 2.19
+(Found maximum of 4 linkages )
+Passion is a must to reach your potential . 
+#BAvAveSa ApakI anwarnihiwa Sakwi #waka pahuzcane ke liye anivArya hE
+
+Hindi meaning using Link parser 2.20
+(Found maximum of 2 linkages )
+Passion is a must to excel and to reach your potential . 
+#BAvAveSa ApakI anwarnihiwa Sakwi #waka pahuzcane ke liye #Ora uwwama hone ke liye anivArya hE
+
+Hindi meaning using Link parser 2.21
+(Found maximum of 3 linkages )
+Rama gave a book to Mohan . 
+\@Rama ne \@Mohan ko puswaka xI
+
+Hindi meaning using Link parser 2.22
+(Found maximum of 4 linkages )
+They would have to eat . 
+unheM/unako KAnA hogA
+
+Hindi meaning using Link parser 2.23
+(Found maximum of 2 linkages )
+Running is good for health . 
+xOdanA svAsWya ke liye acCA hE
+
+Hindi meaning using Link parser 2.24
+(Found maximum of 1 linkages )
+What is your name ? 
+ApakA nAma #kyA hE
+
+Hindi meaning using Link parser 2.25
+(Found maximum of 2 linkages )
+There was a red mark on the door . 
+xaravAje para eka lAla niSAna WA
+
+Hindi meaning using Link parser 2.26
+(Found maximum of 1 linkages )
+Rama married Sita . 
+\@Rama ne \@Sita se vivAha kiyA
+
+Hindi meaning using Link parser 2.27
+(Found maximum of 1 linkages )
+He signed the cheque . 
+usane ceka para haswAkRara kiyA
+
+Hindi meaning using Link parser 2.28
+(Found maximum of 5 linkages )
+The book was read by Meera . 
+puswaka \@Meera ke xvArA paDI gayI WI
+
+Hindi meaning using Link parser 2.29
+(Found maximum of 1 linkages )
+What is the purpose of Dharma ? 
+\@Dharma kA uxxeSya #kyA hE
+
+Hindi meaning using Link parser 2.30
+(Found maximum of 3 linkages )
+There was a marked difference in the prices of dishes . 
+WAliyoM ke mUlyoM meM eka suspaRta #anwara WA
+
+Hindi meaning using Link parser 2.31
+(Found maximum of 1 linkages )
+He marked these bottles . 
+usane ina bowaloM ko cihniwa kiyA
+
+Hindi meaning using Link parser 2.32
+(Found maximum of 2 linkages )
+Has he been eating ? 
+kyA vaha KAwA rahA hE
+
+Hindi meaning using Link parser 2.33
+(Found maximum of 1 linkages )
+Does he run ? 
+kyA vaha xOdawA hE
+
+Hindi meaning using Link parser 2.34
+(Found maximum of 1 linkages )
+Did you take your breakfast ? 
+kyA Apane ApakA jalapAna liyA
+
+Hindi meaning using Link parser 2.35
+(Found maximum of 1 linkages )
+Do not waste electricity . 
+vixyuwa Sakwi vyarWa_meM_barabAxa_mawa kariye/kIjiye
+
+Hindi meaning using Link parser 2.36
+(Found maximum of 2 linkages )
+I will not do it . 
+mEM yaha nahIM karUzgA
+
+Hindi meaning using Link parser 2.37
+(Found maximum of 38 linkages )
+He wasted his golden opportunity to play in the national team . 
+usane #rARtrIya tIma meM Kelane #kA usakA #sunaharA mOkA vyarWa_meM_barabAxa kiyA
+
+Hindi meaning using Link parser 2.38
+(Found maximum of 2 linkages )
+The blacksmith made an assay of iron ore . 
+luhAra ne Kanija lohe kI eka paraKa banAyI/banAI
+
+Hindi meaning using Link parser 2.39
+(Found maximum of 4 linkages )
+He could hear a faint sound from the bushes . 
+vaha JAdiyoM se #nirbala Xvani ko suna sakA
+
+Hindi meaning using Link parser 2.40
+(Found maximum of 3 linkages )
+I heard the sound of rain on the roof . 
+mEMne Cawa para varRA kI AvAja ko sunA
+
+Hindi meaning using Link parser 2.41
+(Found maximum of 1 linkages )
+Rama is beating a boy . 
+\@Rama ladake ko pIta rahA hE
+
+Hindi meaning using Link parser 2.42
+(Found maximum of 2 linkages )
+I went there with my mother . 
+mEM merI mAz ke sAWa vahAz #para gayA
+
+Hindi meaning using Link parser 2.43
+(Found maximum of 2 linkages )
+The train left on time . 
+relagAdI samaya para CUtI
+
+Hindi meaning using Link parser 2.44
+(Found maximum of 1 linkages )
+Rama ate some sweets . 
+\@Rama ne kuCa miTAiyAz KAyIM/KAIM
+
+Hindi meaning using Link parser 2.45
+(Found maximum of 2 linkages )
+This job will not take much effort . 
+#yaha kAma bahuwa prayawna nahIM legA
+
+Hindi meaning using Link parser 2.46
+(Found maximum of 14 linkages )
+I do not go out as much now . 
+mEM #aba uwanA #aXika bAhara_nahIM jAwA hUz
+
+Hindi meaning using Link parser 2.47
+(Found maximum of 8 linkages )
+This is the way to go . 
+#yaha jAne kA mArga hE
+
+Hindi meaning using Link parser 2.48
+(Found maximum of 1 linkages )
+I waited for Seeta for hours . 
+mEMne GaMtoM #waka \@Seeta ke liye prawIkRA kI
+
+Hindi meaning using Link parser 2.49
+(Found maximum of 2 linkages )
+He left in the morning . 
+vaha subaha calA gayA
+
+Hindi meaning using Link parser 2.50
+(Found maximum of 1 linkages )
+I ate fruits , drank milk and slept . 
+mEMne Pala KAye/KAe xUXa piyA #Ora soyA
+
+Hindi meaning using Link parser 2.51
+(Found maximum of 2 linkages )
+The army studied the stills from the security video . 
+senA ne surakRA #vIdiyo se niScala aXyayana kie/kiye
+
+Hindi meaning using Link parser 2.52
+(Found maximum of 8 linkages )
+He lives at Chandinichok in Delhi in India . 
+vaha BArawa meM xillI meM \@Chandinichok meM rahawA hE
+
+Hindi meaning using Link parser 2.53
+(Found maximum of 1 linkages )
+What does he eat ? 
+vaha #kyA KAwA hE
+
+Hindi meaning using Link parser 2.54
+(Found maximum of 1 linkages )
+But my efforts to win his heart have failed . 
+#paranwu mere prayawna usakA hqxaya jIwane ke liye asaPala_ho cuke hEM
+
+Hindi meaning using Link parser 2.55
+(Found maximum of 1 linkages )
+He is a brother of a rich person . 
+vaha eka #sampanna vyakwi kA BAI hE
+
+Hindi meaning using Link parser 2.56
+(Found maximum of 1 linkages )
+She is a wife of a rich person . 
+vaha eka #sampanna vyakwi kI pawnI hE
+
+Hindi meaning using Link parser 2.57
+(Found maximum of 1 linkages )
+The boy saw a child . 
+ladake ne bacce ko xeKA
+
+Hindi meaning using Link parser 2.58
+(Found maximum of 2 linkages )
+Her heart beats fast . 
+usakA hqxaya weja XadakawA hE
+
+Hindi meaning using Link parser 2.59
+(Found maximum of 3 linkages )
+I was sleeping in my room . 
+mEM mere kamare meM so rahA WA
+
+Hindi meaning using Link parser 2.60
+(Found maximum of 1 linkages )
+If you use that strategy , he will wipe you out . 
+#yaxi Apa usa raNanIwi #kA upayoga karawe hEM wo vaha Apako mitA xegA
+
+Hindi meaning using Link parser 2.61
+(Found maximum of 2 linkages )
+I want to go there . 
+mEM vahAz #para jAnA cAhawA hUz
+
+Hindi meaning using Link parser 2.62
+(Found maximum of 3 linkages )
+I can not afford to buy a house . 
+mEM Gara KarIxane ke liye Karca_nahIM_kara sakawA hUz
+
+Hindi meaning using Link parser 2.63
+(Found maximum of 1 linkages )
+The painted doors look great . 
+razge hue xaravAje bade xiKawe hEM
+
+Hindi meaning using Link parser 2.64
+(Found maximum of 2 linkages )
+He bought the published books for his library . 
+usane usake puswakAlaya ke liye prakASiwa puswakeM KarIxIM
+
+Hindi meaning using Link parser 2.65
+(Found maximum of 2 linkages )
+The game of life is played for winning . 
+jIvana kA Kela jIwane ke liye KelA jAwA hE
+
+Hindi meaning using Link parser 2.66
+(Found maximum of 1 linkages )
+The fruit is eaten by a parrot . 
+Pala wowe ke xvArA KAyA gayA hE
+
+Hindi meaning using Link parser 2.67
+(Found maximum of 6 linkages )
+I got a book from the fat ugly boy . 
+mEMne mote kurUpa ladake se puswaka prApwa kI
+
+Hindi meaning using Link parser 2.68
+(Found maximum of 2 linkages )
+I like running . 
+mEM xOdanA pasaMxa karawA hUz
+
+Hindi meaning using Link parser 2.69
+(Found maximum of 4 linkages )
+The Moon is shining . 
+#canxramA camaka rahA hE
+
+Hindi meaning using Link parser 2.70
+(Found maximum of 1 linkages )
+The boy has a computer . 
+ladake ke pAsa saMgaNaka hE
+
+Hindi meaning using Link parser 2.71
+(Found maximum of 1 linkages )
+I asked him a question . 
+mEMne usase praSna pUCA
+
+Hindi meaning using Link parser 2.72
+(Found maximum of 1 linkages )
+I have three brothers . 
+mere #wIna BAI hEM
+
+Hindi meaning using Link parser 2.73
+(Found maximum of 5 linkages )
+The professor decided to write a book . 
+prAXyApaka ne puswaka liKane ke liye niScaya kiyA
+
+Hindi meaning using Link parser 2.74
+(Found maximum of 4 linkages )
+The instructor persuaded Mary to take that course . 
+upaxeSaka ne vaha pATyakrama lene ke liye \@Mary ko rAjI kiyA
+
+Hindi meaning using Link parser 2.75
+(Found maximum of 6 linkages )
+Mary promised the instructor to take that course . 
+\@Mary ne vaha pATyakrama lene ke liye upaxeSaka se vAxA kiyA
+
+Hindi meaning using Link parser 2.76
+(Found maximum of 2 linkages )
+Who translated the sentence for the student ? 
+vixyArWI ke liye vAkya kisane anuvAxa kiyA
+
+Hindi meaning using Link parser 2.77
+(Found maximum of 2 linkages )
+The baby is crying . 
+#SiSU ro rahA hE
+
+Hindi meaning using Link parser 2.78
+(Found maximum of 3 linkages )
+We are waiting for Suresh . 
+#hama \@Suresh ke liye prawIkRA_kara rahe hEM
+
+Hindi meaning using Link parser 2.79
+(Found maximum of 2 linkages )
+She began singing . 
+usane gAnA AramBa kiyA
+
+Hindi meaning using Link parser 2.80
+(Found maximum of 1 linkages )
+I showed them how they should do it . 
+mEMne unheM/unako xiKAyA unheM/unako yaha kEse karane/karanA cAhiye
+
+Hindi meaning using Link parser 2.81
+(Found maximum of 2 linkages )
+There is a book on the desk . 
+deska para puswaka hE
+
+Hindi meaning using Link parser 2.82
+(Found maximum of 2 linkages )
+The donkey was loaded with the idol . 
+gaXA prawimA se lAxA gayA WA
+
+Hindi meaning using Link parser 2.83
+(Found maximum of 1 linkages )
+She is beating him . 
+vaha usako/use pIta rahI hE
+
+Hindi meaning using Link parser 2.84
+(Found maximum of 1 linkages )
+Sita is a good girl . 
+\@Sita eka acCI ladakI hE
+
+Hindi meaning using Link parser 2.85
+(Found maximum of 6 linkages )
+Boys are eating fruits . 
+ladake Pala KA rahe hEM
+
+Hindi meaning using Link parser 2.86
+(Found maximum of 1 linkages )
+This is our book . 
+#yaha hamArI puswaka hE
+
+Hindi meaning using Link parser 2.87
+(Found maximum of 1 linkages )
+Her name is Sita . 
+usakA nAma \@Sita hE
+
+Hindi meaning using Link parser 2.88
+(Found maximum of 1 linkages )
+What did he eat ? 
+usane #kyA KAyA
+
+Hindi meaning using Link parser 2.89
+(Found maximum of 3 linkages )
+Jane is soon coming . 
+\@Jane #SIGra A rahA hE
+
+Hindi meaning using Link parser 2.90
+(Found maximum of 1 linkages )
+Be careful , she said . 
+sAvaXAna hoiye usane kahA
+
+Hindi meaning using Link parser 2.91
+(Found maximum of 1 linkages )
+Do not eat fruits . 
+Pala mawa KAiye
+
+Hindi meaning using Link parser 2.92
+(Found maximum of 1 linkages )
+They are good boys . 
+ve acCe ladake hEM
+
+Hindi meaning using Link parser 2.93
+(Found maximum of 2 linkages )
+I gave a book to him . 
+mEMne usako/use puswaka xI
+
+Hindi meaning using Link parser 2.94
+(Found maximum of 2 linkages )
+This is my first sentence . 
+#yaha merA praWama vAkya hE
+
+Hindi meaning using Link parser 2.95
+(Found maximum of 2 linkages )
+They have social prestige . 
+unakI sAmAjika prawiRTA hE
+
+Hindi meaning using Link parser 2.96
+(Found maximum of 1 linkages )
+Your claims are indefensible . 
+Apake xAve #arakRaNIya hEM
+
+Hindi meaning using Link parser 2.97
+(Found maximum of 4 linkages )
+The wheels of the car began to turn . 
+gAdI ke pahiyoM ne mudanA AramBa kiyA
+
+Hindi meaning using Link parser 2.98
+(Found maximum of 1 linkages )
+Our team was easily beaten in the competition . 
+hamArI tIma #sparXA meM AsAnI #se pItI gayI WI
+
+Hindi meaning using Link parser 2.99
+(Found maximum of 1 linkages )
+She carefully prepared the dinner . 
+usane sAvaXAnI #se rAwa_kA Bojana wEyAra kiyA
+
+Hindi meaning using Link parser 2.100
+(Found maximum of 3 linkages )
+There are many tissues of fat in our body . 
+hamAre SarIra meM carbI ke bahuwa #se #Uwaka hEM
+
+Hindi meaning using Link parser 2.101
+(Found maximum of 1 linkages )
+The mystery of the Nixon tapes was never solved . 
+\@Nixon pattiyoM kA rahasya kaBI #nahIM hala kiyA gayA WA
+
+Hindi meaning using Link parser 2.102
+(Found maximum of 1 linkages )
+The five best costumes got prizes . 
+#pAzca acCe pahanAvoM ne puraskAra prApwa kie/kiye
+
+Hindi meaning using Link parser 2.103
+(Found maximum of 1 linkages )
+A million people attended . 
+xasa lAKa vyakwi upasWiwa huye/hue
+
+Hindi meaning using Link parser 2.104
+(Found maximum of 1 linkages )
+A few people attended . 
+kuCa vyakwi upasWiwa huye/hue
+
+Hindi meaning using Link parser 2.105
+(Found maximum of 1 linkages )
+The income tax proposal was rejected . 
+#Ayakara praswAva nAmaMjUra kiyA gayA WA
+
+Hindi meaning using Link parser 2.106
+(Found maximum of 2 linkages )
+You are lucky I am here . 
+Apa #BAgyavAna hEM mEM #yahAz hUz
+
+Hindi meaning using Link parser 2.107
+(Found maximum of 1 linkages )
+The former astronaut was alone and afraid . 
+purAnA #anwarikRa yAna me prayANa karane vAlA akelA #Ora #BayaBIwa WA
+
+Hindi meaning using Link parser 2.108
+(Found maximum of 1 linkages )
+A big , black , ugly dog chased me . 
+eka bade kAle kurUpa kuwwe ne merA pICA kiyA
+
+Hindi meaning using Link parser 2.109
+(Found maximum of 1 linkages )
+She is very careful about her work . 
+vaha usake kArya ke bAre meM #awyaMwa sAvaXAna hE
+
+Hindi meaning using Link parser 2.110
+(Found maximum of 2 linkages )
+It is likely they will come . 
+yaha #samBava hE ve AyeMge/Aezge
+
+Hindi meaning using Link parser 2.111
+(Found maximum of 2 linkages )
+Have you ever seen the Pacific ? 
+kyA Apa kaBI #BI \@Pacific ko xeKa cuke hEM
+
+Hindi meaning using Link parser 2.112
+(Found maximum of 8 linkages )
+The new David Letterman is a happy , relaxed David Letterman . 
+nayA \@David \@Letterman KuSa wanAva_mukwa \@David \@Letterman hE
+
+Hindi meaning using Link parser 2.113
+(Found maximum of 1 linkages )
+I wonder how much you swim . 
+mEM AScaryacakiwa howA hUz ki Apa #kiwanA wErawe hEM
+
+Hindi meaning using Link parser 2.114
+(Found maximum of 1 linkages )
+How many people died ? 
+kiwane vyakwi mare
+
+Hindi meaning using Link parser 2.115
+(Found maximum of 1 linkages )
+How many people did you see ? 
+Apane kiwane vyakwiyoM ko xeKA
+
+Hindi meaning using Link parser 2.116
+(Found maximum of 1 linkages )
+How many dogs ran ? 
+kiwane kuwwe xOde
+
+Hindi meaning using Link parser 2.117
+(Found maximum of 3 linkages )
+Will I be going to the market . 
+kyA mEM bAjAra jA rahA hoUzgA
+
+Hindi meaning using Link parser 2.118
+(Found maximum of 1 linkages )
+He told them about the accident immediately . 
+usane #wawkAla xurGatanA ke bAre meM unheM/unako bawAyA
+
+Hindi meaning using Link parser 2.119
+(Found maximum of 1 linkages )
+She works very carefully . 
+vaha #awyaMwa sAvaXAnI #se kAma karawI hE
+
+Hindi meaning using Link parser 2.120
+(Found maximum of 6 linkages )
+He made a mistake in inviting John . 
+usane #jOYna ko AmaMwriwa karane meM galawI kI
+
+Hindi meaning using Link parser 2.121
+(Found maximum of 2 linkages )
+I will invite Rama . 
+mEM \@Rama ko AmaMwriwa karUzgA
+
+Hindi meaning using Link parser 2.122
+(Found maximum of 2 linkages )
+Would there be a party today ? 
+kyA #Aja pArtI hogI
+
+Hindi meaning using Link parser 2.123
+(Found maximum of 1 linkages )
+Did you put the milk in the refrigerator ? 
+kyA Apane #praSIwaka meM xUXa raKA
+
+Hindi meaning using Link parser 2.124
+(Found maximum of 2 linkages )
+How many people were there ? 
+kiwane vyakwi vahAz #para We
+
+Hindi meaning using Link parser 2.125
+(Found maximum of 4 linkages )
+Rama gave a book to Dasharat , the king of Ayodhya . 
+\@Rama ne \@Ayodhya kA rAjA \@Dasharat ko puswaka xI
+
+Hindi meaning using Link parser 2.126
+(Found maximum of 1 linkages )
+These are children's books . 
+ye baccoM kI puswakeM hEM
+
+Hindi meaning using Link parser 2.127
+(Found maximum of 2 linkages )
+The fact that he smiled at me gives me hope . 
+#ki vaha muJapara muskarAyA waWya muJe/muJako ASA xewA hE
+
+Hindi meaning using Link parser 2.128
+(Found maximum of 1 linkages )
+I live in New York City . 
+mEM nyUyArka Sahara meM rahawA hUz
+
+Hindi meaning using Link parser 2.129
+(Found maximum of 4 linkages )
+I live near the San Gabriel River . 
+mEM \@San \@Gabriel \@River #ke nikata rahawA hUz
+
+Hindi meaning using Link parser 2.130
+(Found maximum of 2 linkages )
+There is a dog in the park . 
+uxyAna meM kuwwA hE
+
+Hindi meaning using Link parser 2.131
+(Found maximum of 1 linkages )
+Who is afraid of the big bad wolf ? 
+bade KarAba Bediye se #BayaBIwa #kOna hE
+
+Hindi meaning using Link parser 2.132
+(Found maximum of 1 linkages )
+The Danes are nice people . 
+denmArka vAsI acCe vyakwi hEM
+
+Hindi meaning using Link parser 2.133
+(Found maximum of 12 linkages )
+People use espresso to make other coffee drinks . 
+vyakwi anya #kOYPI peya_yA Sarabawa banAne ke liye espreso #kOYPI #kA upayoga karawe hEM
+
+Hindi meaning using Link parser 2.134
+(Found maximum of 2 linkages )
+Espresso is a coffee drink . 
+espreso #kOYPI #kOYPI peya_yA Sarabawa hE
+
+Hindi meaning using Link parser 2.135
+(Found maximum of 2 linkages )
+Go fetch the ball . 
+#golA jAkara lAiye
+
+Hindi meaning using Link parser 2.136
+(Found maximum of 8 linkages )
+The Zongle of Bongle Dongle resigned today . 
+\@Bongle \@Dongle ke \@Zongle ne #Aja wyAga_pawra xiyA
+
+Hindi meaning using Link parser 2.137
+(Found maximum of 2 linkages )
+I gave my brother an expensive present . 
+mEMne mere BAI ko eka mahazgA upahAra xiyA
+
+Hindi meaning using Link parser 2.138
+(Found maximum of 1 linkages )
+I gave an expensive present . 
+mEMne eka mahazgA upahAra xiyA
+
+Hindi meaning using Link parser 2.139
+(Found maximum of 1 linkages )
+I gave him for his birthday a very expensive present . 
+mEMne usake #janmaxina ke liye usako/use eka #awyaMwa mahazgA upahAra xiyA
+
+Hindi meaning using Link parser 2.140
+(Found maximum of 2 linkages )
+Where are you coming from ? 
+Apa #kahAz se A rahe hEM
+
+Hindi meaning using Link parser 2.141
+(Found maximum of 2 linkages )
+Some other costumes were really bad . 
+kuCa_anya pahanAve vAswava #mez KarAba We
+
+Hindi meaning using Link parser 2.142
+(Found maximum of 1 linkages )
+Do you think we should go to the party ? 
+kyA Apa socawe hEM ki hameM/hamako pArtI jAnA cAhiye
+
+Hindi meaning using Link parser 2.143
+(Found maximum of 1 linkages )
+Where did you put the milk ? 
+Apane xUXa #kahAz raKA
+
+Hindi meaning using Link parser 2.144
+(Found maximum of 4 linkages )
+All our sisters are coming . 
+hamArI saba bahaneM A rahIM hEM
+
+Hindi meaning using Link parser 2.145
+(Found maximum of 1 linkages )
+An insect bit me on the arm . 
+eka kIde ne bAhu para muJe/muJako kAtA
+
+Hindi meaning using Link parser 2.146
+(Found maximum of 1 linkages )
+He wrote the biography of Tagore . 
+usane \@Tagore kI jIvanI liKI
+
+Hindi meaning using Link parser 2.147
+(Found maximum of 4 linkages )
+All his books are good . 
+usakI saba puswakeM acCI hEM
+
+Hindi meaning using Link parser 2.148
+(Found maximum of 1 linkages )
+Sita is my daughter . 
+\@Sita merI betI hE
+
+Hindi meaning using Link parser 2.149
+(Found maximum of 3 linkages )
+He is working harder than usual . 
+vaha sAmAnya_kI_wulanA_meM kaTina kAma_kara rahA hE
+
+Hindi meaning using Link parser 2.150
+(Found maximum of 6 linkages )
+He made a mistake in the inviting of John . 
+usane #jOYna ko AmaMwriwa karane meM galawI kI
+
+Hindi meaning using Link parser 2.151
+(Found maximum of 1 linkages )
+John is quite certainly a better choice . 
+#jOYna #sacamuca niSciwa_rUpa #se eka acCA vikalpa hE
+
+Hindi meaning using Link parser 2.152
+(Found maximum of 2 linkages )
+I am doing fine . 
+mEM #baDiyA kara rahA hUz
+
+Hindi meaning using Link parser 2.153
+(Found maximum of 2 linkages )
+It is going terribly . 
+yaha BayAnakawA #se jA rahA hE
+
+Hindi meaning using Link parser 2.154
+(Found maximum of 3 linkages )
+It is going well . 
+yaha acCI #waraha jA rahA hE
+
+Hindi meaning using Link parser 2.155
+(Found maximum of 3 linkages )
+He talks a lot . 
+vaha bahuwa bAwacIwa karawA hE
+
+Hindi meaning using Link parser 2.156
+(Found maximum of 2 linkages )
+Where were you coming from ? 
+Apa #kahAz se A rahe We
+
+Hindi meaning using Link parser 2.157
+(Found maximum of 3 linkages )
+Teddy will go home and study . 
+\@Teddy Gara jAyegA/jAegA #Ora aXyayana karegA
+
+Hindi meaning using Link parser 2.158
+(Found maximum of 2 linkages )
+Petu ran fast but missed the bus . 
+\@Petu weja xOdA #paranwu basa cUka gayA
+
+Hindi meaning using Link parser 2.159
+(Found maximum of 3 linkages )
+There are three boys and four girls in the park . 
+uxyAna meM cAra ladakiyAz #Ora #wIna ladake hEM
+
+Hindi meaning using Link parser 2.160
+(Found maximum of 4 linkages )
+You are lucky that there is no exam today . 
+Apa #BAgyavAna hEM #ki #Aja #parIkRA #nahIM hE
+
+Hindi meaning using Link parser 2.161
+(Found maximum of 1 linkages )
+Where did they go to ? 
+ve #kahAz gaye
+
+Hindi meaning using Link parser 2.162
+(Found maximum of 2 linkages )
+The party that night was a big success . 
+pArtI usa rAwa badI #saPala WI
+
+Hindi meaning using Link parser 2.163
+(Found maximum of 2 linkages )
+Did they eat in the dark ? 
+kyA unhoMne aMXere meM KAyA
+
+Hindi meaning using Link parser 2.164
+(Found maximum of 1 linkages )
+Where did they come from ? 
+ve #kahAz se Aye/Ae
+
+Hindi meaning using Link parser 2.165
+(Found maximum of 1 linkages )
+Where does she come from ? 
+vaha #kahAz se AwI hE
+
+Hindi meaning using Link parser 2.166
+(Found maximum of 37 linkages )
+I had to run fast to catch the bus . 
+muJe/muJako basa pakadane ke liye weja xOdane/xOdanA padA
+
+Hindi meaning using Link parser 2.167
+(Found maximum of 2 linkages )
+I have doubts about inviting him . 
+muJe/muJako usako/use AmaMwriwa karane ke bAre meM saMxeha hEM
+
+Hindi meaning using Link parser 2.168
+(Found maximum of 2 linkages )
+You should be proud of your achievement . 
+Apako ApakI saPalawA para #garviwa honA cAhiye
+
+Hindi meaning using Link parser 2.169
+(Found maximum of 4 linkages )
+The sky is blue , so it is likely that Joe will come . 
+AsamAna #nIlA hE #isaliye yaha #samBava hE #ki \@Joe AyegA/AegA
+
+Hindi meaning using Link parser 2.170
+(Found maximum of 1 linkages )
+He and I are friends . 
+vaha #Ora mEM miwra hEM
+
+Hindi meaning using Link parser 2.171
+(Found maximum of 36 linkages )
+Mary , Joe and Louise are coming to the party . 
+\@Mary \@Joe #Ora \@Louise pArtI ko A rahe hEM
+
+Hindi meaning using Link parser 2.172
+(Found maximum of 1 linkages )
+Your house and garden are very attractive . 
+Apake #Gara #Ora uxyAna #awyaMwa #mohaka hEM
+
+Hindi meaning using Link parser 2.173
+(Found maximum of 3 linkages )
+John Stuart Mill is an important author . 
+#jOYna \@Stuart \@Mill eka mahawvapUrNa leKaka hE
+
+Hindi meaning using Link parser 2.174
+(Found maximum of 1 linkages )
+He lives high in the mountains . 
+vaha parvawoM meM UzcAI #para rahawA hE
+
+Hindi meaning using Link parser 2.175
+(Found maximum of 2 linkages )
+It does not matter what Ted does . 
+yaha mahawvapUrNa_nahIM howA hE \@Ted #kyA karawA hE
+
+Hindi meaning using Link parser 2.176
+(Found maximum of 4 linkages )
+Are a dog and a cat here ? 
+kyA #kuwwA #Ora billI #yahAz hEM
+
+Hindi meaning using Link parser 2.177
+(Found maximum of 3 linkages )
+There is a dog and a cat here . 
+#yahAz billI #Ora kuwwA hE
+
+Hindi meaning using Link parser 2.178
+(Found maximum of 1 linkages )
+Where did the car come from ? 
+gAdI #kahAz se AyI/AI
+
+Hindi meaning using Link parser 2.179
+(Found maximum of 1 linkages )
+Where do the words come from ? 
+Sabxa #kahAz se Awe hEM
+
+Hindi meaning using Link parser 2.180
+(Found maximum of 2 linkages )
+It was obvious that he would do it . 
+#spaRta WA #ki vaha yaha karegA
+
+Hindi meaning using Link parser 2.181
+(Found maximum of 1 linkages )
+He felt a deep shame . 
+usane gaharI lajjA mahasUsa kI
+
+Hindi meaning using Link parser 2.182
+(Found maximum of 1 linkages )
+He saw the broken window . 
+usane tUtI huI KidakI ko xeKA
+
+Hindi meaning using Link parser 2.183
+(Found maximum of 2 linkages )
+Broken windows need to be replaced . 
+tUtI huIM KidakiyAz baxalI jAnI hEM
+
+Hindi meaning using Link parser 2.184
+(Found maximum of 4 linkages )
+Birds lay their eggs in the nest . 
+cidiyAz GoMsale meM unake aNde raKawI hEM
+
+Hindi meaning using Link parser 2.185
+(Found maximum of 2 linkages )
+Mary's shoes are red . 
+\@Mary ke jUwe lAla hEM
+
+Hindi meaning using Link parser 2.186
+(Found maximum of 2 linkages )
+She is always in a hurry . 
+vaha #hameSA jalxI meM hE
+
+Hindi meaning using Link parser 2.187
+(Found maximum of 1 linkages )
+He ladles it with a large wooden spoon . 
+vaha eka viSAla #lakadI kI cammaca se isako parasawA hE
+
+Hindi meaning using Link parser 2.188
+(Found maximum of 2 linkages )
+There was a forest near the village . 
+gAzva #ke nikata jaMgala WA
+
+Hindi meaning using Link parser 2.189
+(Found maximum of 14 linkages )
+She sold the house even though it was against his wishes . 
+usane Gara becA #yaxyapi vaha usakI icCAoM #ke viruxXa WA
+
+Hindi meaning using Link parser 2.190
+(Found maximum of 1 linkages )
+Having finished the book , she went to school . 
+puswaka pUrNa_kara cukane ke bAxa vaha vixyAlaya gayI/gaI
+
+Hindi meaning using Link parser 2.191
+(Found maximum of 16 linkages )
+I had to guess to know the answer . 
+muJe/muJako uwwara jAnane ke liye anxAja lagAnA padA
+
+Hindi meaning using Link parser 2.192
+(Found maximum of 2 linkages )
+She rose from the table to welcome me . 
+vaha merA svAgawa karane ke liye meja se uTI
+
+Hindi meaning using Link parser 2.193
+(Found maximum of 12 linkages )
+However the user needs some training to use the software effectively . 
+#PiraBI #prayogakarwwA ko praBAvakArI_rUpa #se #sOYPtaveyara #kA upayoga karane ke liye Wode praSikRaNa #kI #AvaSyakawA hE
+
+Hindi meaning using Link parser 2.194
+(Found maximum of 4 linkages )
+I can guess his age . 
+mEM usakI umra #kA anxAja_lagA sakawA hUz
+
+Hindi meaning using Link parser 2.195
+(Found maximum of 2 linkages )
+I guess you are working very hard . 
+mEM anxAja lagAwA hUz ki Apa #awyaMwa #kaTina pariSrama_kara rahe hEM
+
+Hindi meaning using Link parser 2.196
+(Found maximum of 4 linkages )
+She asked me to guess her age . 
+usane usakI umra #kA anxAja lagAne ke liye muJe/muJako pUCA
+
+Hindi meaning using Link parser 2.197
+(Found maximum of 1 linkages )
+How can I participate ? 
+mEM kEse BAga_le sakawA hUz
+
+Hindi meaning using Link parser 2.198
+(Found maximum of 3 linkages )
+Which one is right for me ? 
+#kOnasA vAlA mere_liye TIka hE
+
+Hindi meaning using Link parser 2.199
+(Found maximum of 2 linkages )
+He is more intelligent than John . 
+vaha #jOYna kI_wulanA #meM #aXika buxXimAna hE
+
+Hindi meaning using Link parser 2.200
+(Found maximum of 8 linkages )
+Jerry has more than five dollars . 
+\@Jerry ke pAsa #pAzca #dOlara #se aXika hE
+
+Hindi meaning using Link parser 2.201
+(Found maximum of 5 linkages )
+John is less fat than Tom . 
+#jOYna \@Tom kI_wulanA #meM kama motA hE
+
+Hindi meaning using Link parser 2.202
+(Found maximum of 2 linkages )
+I have started working . 
+mEM kAma karanA Suru_kara cukA hUz
+
+Hindi meaning using Link parser 2.203
+(Found maximum of 1 linkages )
+I knew who would come to the party . 
+mEM jAnawA WA ki pArtI ko #kOna AyegA/AegA
+
+Hindi meaning using Link parser 2.204
+(Found maximum of 2 linkages )
+He prays with me daily . 
+vaha prawi xina mere_sAWa prArWanA karawA hE
+
+Hindi meaning using Link parser 2.205
+(Found maximum of 1 linkages )
+I felt terrible after our discussion . 
+mEMne hamArI carcA #ke bAxa #BayAnaka mahasUsa kiyA
+
+Hindi meaning using Link parser 2.206
+(Found maximum of 1 linkages )
+He disputed that our program was superior . 
+usane vivAxa kiyA #ki hamArA progrAma variRTa WA
+
+Hindi meaning using Link parser 2.207
+(Found maximum of 1 linkages )
+The hat is too small for me . 
+topI mere_liye jyAxA #hI CotI hE
+
+Hindi meaning using Link parser 2.208
+(Found maximum of 3 linkages )
+He is a small man in eyes of his boss . 
+vaha usake #bOYsa kI AzKoM meM eka CotA AxamI hE
+
+Hindi meaning using Link parser 2.209
+(Found maximum of 6 linkages )
+We camped on Nilgiri hills during summer . 
+hamane grIRma #ke xOrAna \@Nilgiri pahAdiyoM para padAva dAlA
+
+Hindi meaning using Link parser 2.210
+(Found maximum of 2 linkages )
+The soldiers were called out for the war . 
+sEnika yuxXa ke liye bulAye/bulAe gaye We
+
+Hindi meaning using Link parser 2.211
+(Found maximum of 2 linkages )
+Dry sand absorbs water . 
+sUKI rewa pAnI soKa lewI hE
+
+Hindi meaning using Link parser 2.212
+(Found maximum of 2 linkages )
+We ran after him , but he escaped . 
+#hama usake_pICe xOde #paranwu vaha BAga gayA
+
+Hindi meaning using Link parser 2.213
+(Found maximum of 1 linkages )
+He lost his pen . 
+usane usakI kalama KoyI/KoI
+
+Hindi meaning using Link parser 2.214
+(Found maximum of 5 linkages )
+We lost 30 minutes in the traffic jam . 
+hamane trePika jAma meM \@30 minata Koye/Koe
+
+Hindi meaning using Link parser 2.215
+(Found maximum of 2 linkages )
+Take the book from the last rack . 
+#AKirI #rEka se puswaka lIjiye
+
+Hindi meaning using Link parser 2.216
+(Found maximum of 8 linkages )
+I read about the train accident in today's paper . 
+mEMne #Aja ke pawra meM rela xurGatanA ke bAre meM paDA
+
+Hindi meaning using Link parser 2.217
+(Found maximum of 2 linkages )
+He is a devoted husband and a father . 
+vaha eka vaPAxAra #pawi #Ora piwA hE
+
+Hindi meaning using Link parser 2.218
+(Found maximum of 4 linkages )
+Sita is baking breads for breakfast . 
+\@Sita jalapAna ke liye #breda sezka rahI hE
+
+Hindi meaning using Link parser 2.219
+(Found maximum of 1 linkages )
+Last week I saw a great movie . 
+mEMne piCale sapwAha eka #baDiyA calaciwra xeKA
+
+Hindi meaning using Link parser 2.220
+(Found maximum of 3 linkages )
+Are you coming with us ? 
+kyA Apa hamAre_sAWa A rahe hEM
+
+Hindi meaning using Link parser 2.221
+(Found maximum of 1 linkages )
+The idol was a beautiful piece of excellent workmanship . 
+prawimA uwwama kArIgarI kI eka sunxara #kalAkquwi WI
+
+Hindi meaning using Link parser 2.222
+(Found maximum of 3 linkages )
+She is making the girl feed the child . 
+vaha ladakI se bacce ko KAnA_KilavA rahI hE
+
+Hindi meaning using Link parser 2.223
+(Found maximum of 3 linkages )
+She made the girl feed the child . 
+usane ladakI se bacce ko KAnA KilavAyA
+
+Hindi meaning using Link parser 2.224
+(Found maximum of 1 linkages )
+The water came above our shoulder . 
+pAnI hamAre kanXe ke Upara AyA
+
+Hindi meaning using Link parser 2.225
+(Found maximum of 1 linkages )
+I told Jim a story . 
+mEMne \@Jim ko kahAnI bawAyI/bawAI
+
+Hindi meaning using Link parser 2.226
+(Found maximum of 7 linkages )
+I yelled at her for going to the party . 
+mEM pArtI jAne ke liye usapara cillAyA
+
+Hindi meaning using Link parser 2.227
+(Found maximum of 4 linkages )
+The girl who you called yesterday has arrived . 
+jise/jisako Apane #kala bulAyA #vaha ladakI pahuzca gayI/gaI
+
+Hindi meaning using Link parser 2.228
+(Found maximum of 4 linkages )
+The boy you called yesterday has arrived . 
+jise/jisako Apane #kala bulAyA #vaha ladakA pahuzca gayA
+
+Hindi meaning using Link parser 2.229
+(Found maximum of 1 linkages )
+The snake who swallowed the rat hissed loudly . 
+jisane cUhA nigalA #vaha sAzpa Uzce_svara #meM #sisakAra
+
+Hindi meaning using Link parser 2.230
+(Found maximum of 1 linkages )
+The dog who chased me was black . 
+jisane merA pICA kiyA #vaha kuwwA kAlA WA
+
+Hindi meaning using Link parser 2.231
+(Found maximum of 2 linkages )
+The book I was reading is wonderful . 
+jise/jisako mEM paDa rahA WA #vaha puswaka axBuwa hE
+
+Hindi meaning using Link parser 2.232
+(Found maximum of 4 linkages )
+The Richard Milhous Nixon Library has been a big success . 
+\@Richard \@Milhous \@Nixon \@Library badA saPala ho cukA hE
+
+Hindi meaning using Link parser 2.233
+(Found maximum of 1 linkages )
+John's family is renovating their kitchen . 
+#jOYna kA parivAra unakA rasoIGara navIkaraNa_kara rahA hE
+
+Hindi meaning using Link parser 2.234
+(Found maximum of 4 linkages )
+The dog which Chris bought is really ugly . 
+jise/jisako \@Chris ne KarIxA #vaha kuwwA vAswava #mez kurUpa hE
+
+Hindi meaning using Link parser 2.235
+(Found maximum of 1 linkages )
+How do you operate this machine ? 
+Apa #yaha maSIna kEse calAwe hEM
+
+Hindi meaning using Link parser 2.236
+(Found maximum of 2 linkages )
+How quickly did Joe run ? 
+\@Joe kiwanI PurwI #se xOdA
+
+Hindi meaning using Link parser 2.237
+(Found maximum of 3 linkages )
+He is looking for another job . 
+vaha eka #Ora kAma ke liye xeKa rahA hE
+
+Hindi meaning using Link parser 2.238
+(Found maximum of 6 linkages )
+They were asked that he be allowed to go . 
+unase kahA gayA WA #ki usako/use jAne xiyA jAye
+
+Hindi meaning using Link parser 2.239
+(Found maximum of 2 linkages )
+Can we open a second browser window . 
+kyA #hama xUsarI #vicaraka KidakI Kola sakawe hEM
+
+Hindi meaning using Link parser 2.240
+(Found maximum of 2 linkages )
+This computer is relatively more expensive . 
+#yaha saMgaNaka wulanAwmaka_rUpa #se #aXika mahazgA hE
+
+Hindi meaning using Link parser 2.241
+(Found maximum of 2 linkages )
+He is a well known scientist . 
+vaha eka jAnA #mAnA vEjFAnika hE
+
+Hindi meaning using Link parser 2.242
+(Found maximum of 1 linkages )
+But where will you get them from . 
+#paranwu Apa unheM/unako #kahAz se prApwa kareMge
+
+Hindi meaning using Link parser 2.243
+(Found maximum of 2 linkages )
+The e-mail message which you sent finally arrived yesterday . 
+jise/jisako Apane BejA #vaha ilektrOYnika #mela saMxeSa #kala #AKirakAra pahuzca gayA
+
+Hindi meaning using Link parser 2.244
+(Found maximum of 1 linkages )
+The snake the mongoose attacked hissed loudly . 
+jisapara nevale ne hamalA kiyA #vaha sAzpa Uzce_svara #meM #sisakAra
+
+Hindi meaning using Link parser 2.245
+(Found maximum of 1 linkages )
+The dogs who I chased were black . 
+jinakA mEMne pICA kiyA #vaha kuwwe kAle We
+
+Hindi meaning using Link parser 2.246
+(Found maximum of 1 linkages )
+Are you afraid of spiders ? 
+kyA Apa makadiyoM se #BayaBIwa hEM
+
+Hindi meaning using Link parser 2.247
+(Found maximum of 4 linkages )
+I did not think he would do it , but he did . 
+mEMne nahIM socA WA ki vaha yaha karegA #paranwu usane kiyA
+
+Hindi meaning using Link parser 2.248
+(Found maximum of 4 linkages )
+He was to become the president of India . 
+vaha BArawa kA aXyakRa hone #vAlA WA
+
+Hindi meaning using Link parser 2.249
+(Found maximum of 8 linkages )
+By going there you can earn more money . 
+Apa vahAz #para jAne ke xvArA #aXika pEsA kamA sakawe hEM
+
+Hindi meaning using Link parser 2.250
+(Found maximum of 2 linkages )
+Is that the film in which he kills his mother . 
+kyA #vaha sinemA hE vaha jisameM usakI mAz ko mArawA hE
+
+Hindi meaning using Link parser 2.251
+(Found maximum of 2 linkages )
+Of her childhood we know very little . 
+#hama usake bacapana ke bAre meM #awyaMwa WodA jAnawe hEM
+
+Hindi meaning using Link parser 2.252
+(Found maximum of 1 linkages )
+From your description , I do not think I would enjoy it . 
+Apake varNana se mEM nahIM socawA hUz ki mEM isakA Ananxa uTAUzgA
+
+Hindi meaning using Link parser 2.253
+(Found maximum of 2 linkages )
+I know some people . 
+mEM kuCa vyakwiyoM ko jAnawA hUz
+
+Hindi meaning using Link parser 2.254
+(Found maximum of 1 linkages )
+He has lost his confidence . 
+vaha usakA BarosA Ko cukA hE
+
+Hindi meaning using Link parser 2.255
+(Found maximum of 3 linkages )
+She took out water from a deep well . 
+usane eka gahare kuze se pAnI bAhara nikAlA
+
+Hindi meaning using Link parser 2.256
+(Found maximum of 2 linkages )
+Do not disturb the sleeping kids . 
+sowe hue baccoM ko mawa Cediye
+
+Hindi meaning using Link parser 2.257
+(Found maximum of 1 linkages )
+The letter disturbed me . 
+pawra ne muJe/muJako pareSAna kiyA
+
+Hindi meaning using Link parser 2.258
+(Found maximum of 2 linkages )
+We went to Paris on Sarah's advice . 
+#hama \@Sarah kI salAha para \@Paris gaye
+
+Hindi meaning using Link parser 2.259
+(Found maximum of 4 linkages )
+The lawyer pointed out that Clinton did not actually kiss Monica . 
+vakIla ne XyAna xilAyA #ki \@Clinton ne vAswava #meM \@Monica ko nahIM cUmA WA
+
+Hindi meaning using Link parser 2.260
+(Found maximum of 1 linkages )
+I finally figured out why this program is so slow . 
+mEMne #AKirakAra pawA lagAyA #yaha progrAma iwanA XImA #kyoM hE
+
+Hindi meaning using Link parser 2.261
+(Found maximum of 2 linkages )
+Each one of them recorded the narratives from twenty participants . 
+unameM_se #prawyeka ne bIsa #BAga lene vAloM se varNaNAwmaka kahAniyAz rajistara_mez_xarja kIM
+
+Hindi meaning using Link parser 2.262
+(Found maximum of 2 linkages )
+The planet that we live on is of medium size . 
+jisapara #hama rahawe hEM #vaha graha maXyama AkAra #kA hE
+
+Hindi meaning using Link parser 2.263
+(Found maximum of 2 linkages )
+They were discussing their hopes and dreams . 
+ve unake #ASA #Ora svapnoM kI carcA_kara rahe We
+
+Hindi meaning using Link parser 2.264
+(Found maximum of 1 linkages )
+She was afraid for her children . 
+vaha usake baccoM ke liye #cinwiwa WI
+
+Hindi meaning using Link parser 2.265
+(Found maximum of 1 linkages )
+The students enjoyed taking that course . 
+vixyArWiyoM ne vaha pATyakrama lene kA Ananxa uTAyA
+
+Hindi meaning using Link parser 2.266
+(Found maximum of 2 linkages )
+She will bind the ribbon . 
+vaha PIwA bAzXegI
+
+Hindi meaning using Link parser 2.267
+(Found maximum of 1 linkages )
+Delhi is my birth place . 
+xillI merA janma sWAna hE
+
+Hindi meaning using Link parser 2.268
+(Found maximum of 3 linkages )
+She gave birth to twins . 
+usane #judavA ko janma xiyA
+
+Hindi meaning using Link parser 2.269
+(Found maximum of 3 linkages )
+He got all the advantages of his birth . 
+usane usake janma ke #saBI PAyaxe prApwa kie/kiye
+
+Hindi meaning using Link parser 2.270
+(Found maximum of 2 linkages )
+John screamed from inside the house . 
+#jOYna Gara #ke aMxara se cIKA
+
+Hindi meaning using Link parser 2.271
+(Found maximum of 1 linkages )
+Did you ask the price ? 
+kyA Apane mUlya pUCA
+
+Hindi meaning using Link parser 2.272
+(Found maximum of 1 linkages )
+May I ask you a question ? 
+kyA mEM Apase praSna pUCa sakawA hUz
+
+Hindi meaning using Link parser 2.273
+(Found maximum of 1 linkages )
+He bought a book of stamps . 
+usane tikatoM kI puswaka KarIxI
+
+Hindi meaning using Link parser 2.274
+(Found maximum of 4 linkages )
+I should have talked to you before inviting John . 
+muJe/muJako #jOYna ko AmaMwriwa karane #se pahale Apase bAwacIwa karanI cAhiye WI
+
+Hindi meaning using Link parser 2.275
+(Found maximum of 3 linkages )
+Can you tell us where those strange ideas came from ? 
+kyA Apa hameM/hamako bawA sakawe hEM ve viciwra vicAra #kahAz se Aye/Ae
+
+Hindi meaning using Link parser 2.276
+(Found maximum of 1 linkages )
+This table is made up of wood . 
+#yaha meja lakadI se_nirmiwa hE
+
+Hindi meaning using Link parser 2.277
+(Found maximum of 45 linkages )
+When we want to hear a music programme on the radio , we have to tune the radio to the correct station . 
+#jaba #hama redio para saMgIwa kAryakrama ko sunanA cAhawe hEM wo hameM/hamako #sahI steSana ko redio milAnA hE
+
+Hindi meaning using Link parser 2.278
+(Found maximum of 6 linkages )
+She is having her children cook dinner for her . 
+vaha usake_liye usake baccoM se rAwa_kA Bojana pakavA rahI hE
+
+Hindi meaning using Link parser 2.279
+(Found maximum of 8 linkages )
+The old woman was sitting in a chair . 
+vqxXa swrI kursI meM bETI WI
+
+Hindi meaning using Link parser 2.280
+(Found maximum of 8 linkages )
+All these fruits are to be eaten . 
+ye saba Pala KAye/KAe jAne hEM
+
+Hindi meaning using Link parser 2.281
+(Found maximum of 3 linkages )
+The boy who came yesterday from Delhi is my friend . 
+#jo xillI se #kala AyA #vaha ladakA merA miwra hE
+
+Hindi meaning using Link parser 2.282
+(Found maximum of 1 linkages )
+The policeman took him to policestation . 
+sipAhI \@policestation ko usako/use le gayA
+
+Hindi meaning using Link parser 2.283
+(Found maximum of 6 linkages )
+The groups of frogs were traveling through the woods , and two of them fell into a deep pit . 
+meDakoM ke samUha lakadiyoM meM se yAwrA_kara rahe We #Ora unameM_se #xo eka gahare gadDe #ke aMxara gire
+
+Hindi meaning using Link parser 2.284
+(Found maximum of 18 linkages )
+Her hard work and talent will take her to the top . 
+usakI kadI #mehanawa #Ora prawiBA_SAlI #vyakwiwva sarvocca sWAna ko usako/use le jAyegI/jAegI
+
+Hindi meaning using Link parser 2.285
+(Found maximum of 2 linkages )
+It is likely that Rod died . 
+yaha #samBava hE #ki \@Rod marA
+
+Hindi meaning using Link parser 2.286
+(Found maximum of 4 linkages )
+He is known as the Einstein of India . 
+vaha BArawa ke \@Einstein #ke nAma se jAnA jAwA hE
+
+Hindi meaning using Link parser 2.287
+(Found maximum of 3 linkages )
+I will keep on trying . 
+mEM prayAsa karawA rahUMgA
+
+Hindi meaning using Link parser 2.288
+(Found maximum of 4 linkages )
+We like to eat at restaurants , particularly on weekends . 
+#hama #sapwAhAnwa para viSeRa_rUpa #se jalapAna gqhoM meM KAnA pasaMxa karawe hEM
+
+Hindi meaning using Link parser 2.289
+(Found maximum of 3 linkages )
+These shoes that I bought will look nice with that hat . 
+jinako/jinheM mEMne KarIxA ye jUwe usa topI ke sAWa acCe xiKeMge
+
+Hindi meaning using Link parser 2.290
+(Found maximum of 2 linkages )
+I will follow you no matter where you go . 
+mEM ApakA anusaraNa karUzgA isakI_paravAha_kie_binA_ki Apa #kahAz jAwe hEM
+
+Hindi meaning using Link parser 2.291
+(Found maximum of 2 linkages )
+They divided the money up among the children . 
+unhoMne baccoM #ke bIca meM pEsA bAzta xiyA
+
+Hindi meaning using Link parser 2.292
+(Found maximum of 1 linkages )
+Discuss it among yourselves first . 
+#pahale Apasa #meM isakI carcA kariye/kIjiye
+
+Hindi meaning using Link parser 2.293
+(Found maximum of 2 linkages )
+It plunged first its nose into the river . 
+isane naxI #ke aMxara #pahale usakI nAka PazsAyI/PazsAI
+
+Hindi meaning using Link parser 2.294
+(Found maximum of 1 linkages )
+I biked Johnson Creek . 
+mEMne \@Johnson \@Creek ko bAika_para GumAyA
+
+Hindi meaning using Link parser 2.295
+(Found maximum of 4 linkages )
+I will finish my work first . 
+mEM #pahale merA kArya pUrNa karUzgA
+
+Hindi meaning using Link parser 2.296
+(Found maximum of 1 linkages )
+Who came first in the race ? 
+xOda meM #praWama #kOna AyA
+
+Hindi meaning using Link parser 2.297
+(Found maximum of 5 linkages )
+It was cold there even in summer . 
+grIRma meM #BI vahAz #para TaMdA WA
+
+Hindi meaning using Link parser 2.298
+(Found maximum of 4 linkages )
+There was an attempt to kill Rod . 
+\@Rod ko mArane ke liye eka prayAsa WA
+
+Hindi meaning using Link parser 2.299
+(Found maximum of 2 linkages )
+Even a child can understand it . 
+eka baccA #BI yaha samaJa sakawA hE
+
+Hindi meaning using Link parser 2.300
+(Found maximum of 8 linkages )
+She is even more intelligent than her sister . 
+vaha usakI bahana #kI wulanA meM #Ora #aXika buxXimAna hE
+
+Hindi meaning using Link parser 3.1
+(Found maximum of 6 linkages )
+The recent advertising campaign has had a marked effect on sales . 
+#hAla ke vijFApanabAjI aBiyAna #kA bikrI para suspaRta praBAva ho cukA hE
+
+Hindi meaning using Link parser 3.2
+(Found maximum of 1 linkages )
+That reeks of favoritism . 
+usase pakRapAwa kI bU AwI hE
+
+Hindi meaning using Link parser 3.3
+(Found maximum of 2 linkages )
+We should help the poor . 
+hameM/hamako xIna #kI sahAyawA karane/karanA cAhiye
+
+Hindi meaning using Link parser 3.4
+(Found maximum of 2 linkages )
+He told me why he was here and what he was doing . 
+usane muJe/muJako bawAyA ki vaha #yahAz #kyoM WA #Ora vaha #kyA kara rahA WA
+
+Hindi meaning using Link parser 3.5
+(Found maximum of 2 linkages )
+He left all his money to the orphanage . 
+usane anAWAlaya ke liye usakA saba pEsA CodA
+
+Hindi meaning using Link parser 3.6
+(Found maximum of 10 linkages )
+Because of the rain , we decided to stay home . 
+hamane varRA #kI vajaha se Gara rahane ke liye niScaya kiyA
+
+Hindi meaning using Link parser 3.7
+(Found maximum of 8 linkages )
+I want to have this and I want to have that . 
+mEM #yaha cAhawA hUz #Ora mEM #vaha cAhawA hUz
+
+Hindi meaning using Link parser 3.8
+(Found maximum of 1 linkages )
+I saw him telling her about the party . 
+mEMne pArtI ke bAre meM usako/use bawAwe_hue usako/use xeKA
+
+Hindi meaning using Link parser 3.9
+(Found maximum of 8 linkages )
+I made him make some changes in the program . 
+mEMne progrAma meM usase kuCa parivarwana karavAye/karavAe
+
+Hindi meaning using Link parser 3.10
+(Found maximum of 2 linkages )
+Terrorists treat people very badly . 
+AwaMkavAxI #awyaMwa burI_waraha #se vyakwiyoM se vyavahAra karawe hEM
+
+Hindi meaning using Link parser 3.11
+(Found maximum of 1 linkages )
+This sentence parses badly . 
+isa vAkya kA bahuwa #KarAba SAbxaboXa howA hE
+
+Hindi meaning using Link parser 3.12
+(Found maximum of 4 linkages )
+He is being hired by another company . 
+usako/use eka #Ora #kaMpanI ke xvArA kAma #xiyA jA rahA hE
+
+Hindi meaning using Link parser 3.13
+(Found maximum of 2 linkages )
+We picked them out for her . 
+hamane usake_liye unheM/unako cuna liyA
+
+Hindi meaning using Link parser 3.14
+(Found maximum of 4 linkages )
+We picked out some beautiful flowers for her . 
+hamane usake_liye kuCa sunxara PUla cuna liye/lie
+
+Hindi meaning using Link parser 3.15
+(Found maximum of 2 linkages )
+Biking is good for health . 
+sAikila calAnA svAsWya ke liye acCA hE
+
+Hindi meaning using Link parser 3.16
+(Found maximum of 1 linkages )
+I am afraid that I have badly hurt him . 
+muJe/muJako #Kexa hE #ki mEM burI_waraha #se usako/use kRawi_pahuzcA cukA hUz
+
+Hindi meaning using Link parser 3.17
+(Found maximum of 1 linkages )
+She was singing me a song . 
+vaha mere_liye gAnA gA rahI WI
+
+Hindi meaning using Link parser 3.18
+(Found maximum of 2 linkages )
+He will sing you good night . 
+vaha Apake_liye SuBa #rAwrI gAyegA/gAegA
+
+Hindi meaning using Link parser 3.19
+(Found maximum of 2 linkages )
+Dick is important to fix the problem . 
+\@Dick samasyA ko sulaJAne ke liye mahawvapUrNa hE
+
+Hindi meaning using Link parser 3.20
+(Found maximum of 2 linkages )
+Biking feels good . 
+sAikila calAne se acCA mahasUsa howA hE
+
+Hindi meaning using Link parser 3.21
+(Found maximum of 2 linkages )
+Decorate the car with fresh flowers . 
+wAje PUloM se gAdI alaMkqwa kariye/kIjiye
+
+Hindi meaning using Link parser 3.22
+(Found maximum of 4 linkages )
+Anne told me I would almost certainly be hired . 
+\@Anne ne muJe/muJako bawAyA ki mEM #lagaBaga niSciwa_rUpa #se majaxUrI_para raKA jAUzgA
+
+Hindi meaning using Link parser 3.23
+(Found maximum of 8 linkages )
+I expect to go to the party tomorrow . 
+mEM #kala pArtI jAne kI ASA karawA hUz
+
+Hindi meaning using Link parser 3.24
+(Found maximum of 1 linkages )
+The shadow travels with the sun . 
+paraCAI sUrya ke sAWa calawI hE
+
+Hindi meaning using Link parser 3.25
+(Found maximum of 5 linkages )
+The labour was with the Union leader on this issue . 
+Sramika samAja isa viRaya para saMgaTana newA ke sAWa WA
+
+Hindi meaning using Link parser 3.26
+(Found maximum of 2 linkages )
+I hope he comes to the party tomorrow . 
+mEM ASA karawA hUz ki vaha #kala pArtI ko AyegA/AegA
+
+Hindi meaning using Link parser 3.27
+(Found maximum of 6 linkages )
+I say it is a damn shame that he left . 
+mEM kahawA hUz ki yaha awyanwa #lajjAspaxa hE #ki vaha calA gayA
+
+Hindi meaning using Link parser 3.28
+(Found maximum of 4 linkages )
+He would play a football match against his former champions . 
+vaha usake purAne KilAdiyoM #ke viruxXa PutabAla #mEca KelegA
+
+Hindi meaning using Link parser 3.29
+(Found maximum of 1 linkages )
+Do you think these two colours match ? 
+kyA Apa socawe hEM ki ye #xo raMga mela KAwe hEM
+
+Hindi meaning using Link parser 3.30
+(Found maximum of 7 linkages )
+They are playing an important match against Liverpool on Saturday . 
+ve SanivAra ko \@Liverpool #ke viruxXa eka mahawvapUrNa #mEca Kela rahe hEM
+
+Hindi meaning using Link parser 3.31
+(Found maximum of 4 linkages )
+I was told the whole story by Maybeline . 
+muJe/muJako \@Maybeline ke xvArA pUrI kahAnI bawAyI/bawAI gayI WI
+
+Hindi meaning using Link parser 3.32
+(Found maximum of 10 linkages )
+It is eight hundred feet above the sea level . 
+yaha #ATasO #PUta samuxra #wala ke Upara hE
+
+Hindi meaning using Link parser 3.33
+(Found maximum of 1 linkages )
+Does this shirt match these trousers ? 
+kyA #yaha kamIja isa pawalUna_ke_sAWa mela KAwI hE
+
+Hindi meaning using Link parser 3.34
+(Found maximum of 1 linkages )
+She is full of bright ideas . 
+vaha #wejasvI vicAroM se BarI huI hE
+
+Hindi meaning using Link parser 3.35
+(Found maximum of 6 linkages )
+I thought it is right to resign . 
+mEMne socA ki wyAga_pawra xenA TIka hE
+
+Hindi meaning using Link parser 3.36
+(Found maximum of 21 linkages )
+It is not a good idea to drive for hours without a rest . 
+viSrAma #ke binA GaMtoM #waka kAra calAnA acCA vicAra #nahIM hE
+
+Hindi meaning using Link parser 3.37
+(Found maximum of 2 linkages )
+His aim was to become president . 
+usakA lakRya aXyakRa honA WA
+
+Hindi meaning using Link parser 3.38
+(Found maximum of 4 linkages )
+We have very different ideas about disciplining children . 
+hamAre baccoM ko anuSAsiwa karane ke bAre meM #awyaMwa alaga vicAra hEM
+
+Hindi meaning using Link parser 3.39
+(Found maximum of 7 linkages )
+It is not a good manner to eat alone . 
+#akelA KAnA acCA vyavahAra #nahIM hE
+
+Hindi meaning using Link parser 3.40
+(Found maximum of 4 linkages )
+Their daughter took the first prize in the race . 
+unakI betI ne xOda meM praWama puraskAra liyA
+
+Hindi meaning using Link parser 3.41
+(Found maximum of 1 linkages )
+He took the most convenient seat . 
+usane sabase #aXika #suviXAjanaka Asana liyA
+
+Hindi meaning using Link parser 3.42
+(Found maximum of 2 linkages )
+Do not forget to take your tiffin . 
+ApakA \@tiffin lenA BUla_mawa jAiye
+
+Hindi meaning using Link parser 3.43
+(Found maximum of 6 linkages )
+He made negative comments to the press . 
+usane #prEsa ko nakArAwmaka tippaNiyAz xIM
+
+Hindi meaning using Link parser 3.44
+(Found maximum of 16 linkages )
+The official refused to comment on the matter . 
+aXikArI ne viRaya para tippaNI karane ke liye manA kiyA
+
+Hindi meaning using Link parser 3.45
+(Found maximum of 2 linkages )
+I suppose his criticism was fair comment . 
+mEM mAna lewA hUz ki usakI AlocanA uciwa tippaNI WI
+
+Hindi meaning using Link parser 3.46
+(Found maximum of 2 linkages )
+They seem to resemble each other . 
+ve eka_xUsare ke_samAna prawIwa howe hEM
+
+Hindi meaning using Link parser 3.47
+(Found maximum of 1 linkages )
+He commented that the two essays were rather similar . 
+usane tippaNI kI #ki #xo nibaMXa #kAPI #samAna We
+
+Hindi meaning using Link parser 3.48
+(Found maximum of 1 linkages )
+He had not seen him since that graduation day . 
+vaha usa snAwakawA xivasa se usase nahIM milA WA
+
+Hindi meaning using Link parser 3.49
+(Found maximum of 2 linkages )
+He had seen me in the garden last night . 
+vaha piCalI rAwa uxyAna meM muJase milA WA
+
+Hindi meaning using Link parser 3.50
+(Found maximum of 3 linkages )
+She was asked about the pay increase but made no comment . 
+usase #vewana vqxXi ke bAre meM pUCA gayA WA #paranwu usane tippaNI #nahIM kI
+
+Hindi meaning using Link parser 3.51
+(Found maximum of 9 linkages )
+The role of a teacher is to guide a student towards knowledge . 
+SikRaka kI BUmikA jFAna #kI ora vixyArWI #kA mArgaxarSana karanA hE
+
+Hindi meaning using Link parser 3.52
+(Found maximum of 2 linkages )
+My brother guided me in my work . 
+mere BAI ne mere kArya meM merA mArgaxarSana kiyA
+
+Hindi meaning using Link parser 3.53
+(Found maximum of 2 linkages )
+He was awarded for his courage . 
+usako/use usake sAhasa ke liye puraskAra xiyA gayA WA
+
+Hindi meaning using Link parser 3.54
+(Found maximum of 7 linkages )
+It struggled to force its body through that little hole . 
+isane usa Cote Cexa meM se usakA SarIra nikAlane ke liye saMGarRa kiyA
+
+Hindi meaning using Link parser 3.55
+(Found maximum of 1 linkages )
+She is a great fan of Lata . 
+vaha \@Lata kI eka badI #praSaMsaka hE
+
+Hindi meaning using Link parser 3.56
+(Found maximum of 1 linkages )
+He was a football fan . 
+vaha #PutabOYla praSaMsaka WA
+
+Hindi meaning using Link parser 3.57
+(Found maximum of 6 linkages )
+He was an exotic creature with short red hair and brilliant green eyes . 
+vaha #wejomaya harI AzKeM #Ora Cote lAla keSa #vAlA eka #AkarRaka prANI WA
+
+Hindi meaning using Link parser 3.58
+(Found maximum of 1 linkages )
+A warm breeze fanned her cheeks . 
+eka garma manxa samIra ne usake gAloM ko panKA kiyA
+
+Hindi meaning using Link parser 3.59
+(Found maximum of 4 linkages )
+These smugglers are to be captured . 
+ye #waskara-vyApArI pakade jAne hEM
+
+Hindi meaning using Link parser 3.60
+(Found maximum of 6 linkages )
+It did not resemble any living creature . 
+yaha #kisI jIviwa prANI #ke samAna_nahIM lagawA WA
+
+Hindi meaning using Link parser 3.61
+(Found maximum of 4 linkages )
+I saw you put the key in your pocket . 
+mEMne xeKA ki Apane ApakI jeba meM cAbI raKI
+
+Hindi meaning using Link parser 3.62
+(Found maximum of 2 linkages )
+Guess who I saw at the party last night ! 
+anxAja lagAiye ki mEMne piCalI rAwa pArtI meM kisako/kise xeKA
+
+Hindi meaning using Link parser 3.63
+(Found maximum of 4 linkages )
+I have been invited to head the department . 
+mEM viBAga #kI aXyakRawA karane ke liye AmaMwriwa kiyA gayA hUz
+
+Hindi meaning using Link parser 3.64
+(Found maximum of 4 linkages )
+We thank you all for coming this evening . 
+#hama #Aja saMXyA Ane ke liye Apa #sab ko XanyavAxa xewe hEM
+
+Hindi meaning using Link parser 3.65
+(Found maximum of 1 linkages )
+Could this be that ? 
+kyA #yaha #vaha ho sakawA hE
+
+Hindi meaning using Link parser 3.66
+(Found maximum of 8 linkages )
+He was awakened at dawn by the sound of crying . 
+vaha cIKane kI AvAja se #uRAkAla meM jagAyA gayA WA
+
+Hindi meaning using Link parser 3.67
+(Found maximum of 1 linkages )
+I am afraid you have completely misunderstood the question . 
+muJe/muJako #Kexa hE Apa pUrI_waraha #se praSna galawa_samaJa cuke hEM
+
+Hindi meaning using Link parser 3.68
+(Found maximum of 7 linkages )
+She awakened to the sound of birds' singing . 
+vaha cidiyoM ke gAne kI AvAja se jAgI
+
+Hindi meaning using Link parser 3.69
+(Found maximum of 88 linkages )
+On hearing the news of his father's death Sachin returned back to India . 
+\@Sachin BArawa ko usake piwA kI mqwyu ke samAcAra sunane para #vApisa lOtA
+
+Hindi meaning using Link parser 3.70
+(Found maximum of 2 linkages )
+By 2012 the task will be completed . 
+kAma \@2012 #waka pUrA kiyA jAegA
+
+Hindi meaning using Link parser 3.71
+(Found maximum of 1 linkages )
+The big question on everybody's mind is who killed OJ . 
+prawyeka vyakwi ke mana para badA praSna hE ki \@OJ ko kisane mArA
+
+Hindi meaning using Link parser 3.72
+(Found maximum of 6 linkages )
+Last Tuesday was really fun . 
+piCalA maMgalavAra vAswava #mez #majA WA
+
+Hindi meaning using Link parser 3.73
+(Found maximum of 1 linkages )
+This is my friend Bob . 
+#yaha merA miwra \@Bob hE
+
+Hindi meaning using Link parser 3.74
+(Found maximum of 6 linkages )
+We ate at Joe's Diner last week . 
+hamane piCale sapwAha \@Joe ke \@Diner meM KAyA
+
+Hindi meaning using Link parser 3.75
+(Found maximum of 1 linkages )
+I saw her again a year and a half later . 
+mEMne xeDa_sAla_ke #bAxa Pira #se usako/use xeKA
+
+Hindi meaning using Link parser 3.76
+(Found maximum of 1 linkages )
+How did John do it ? 
+#jOYna ne yaha kEse kiyA
+
+Hindi meaning using Link parser 3.77
+(Found maximum of 1 linkages )
+The punch caught him in the stomach . 
+mukkA peta meM usako/use lagA
+
+Hindi meaning using Link parser 3.78
+(Found maximum of 1 linkages )
+It is clear who killed Rod . 
+yaha #spaRta hE \@Rod ko kisane mArA
+
+Hindi meaning using Link parser 3.79
+(Found maximum of 8 linkages )
+If John was with Lisa last night , who went to the movie with Diane . 
+#yaxi #jOYna piCalI rAwa \@Lisa ke sAWa WA \@Diane ke sAWa calaciwra #kOna gayA
+
+Hindi meaning using Link parser 3.80
+(Found maximum of 1 linkages )
+We need a president who understands us . 
+hameM/hamako eka Ese aXyakRa #kI #AvaSyakawA hE #jo #hameM samaJawA hE
+
+Hindi meaning using Link parser 3.81
+(Found maximum of 2 linkages )
+We are from the planet Gorpon . 
+#hama #graha \@Gorpon se hEM
+
+Hindi meaning using Link parser 3.82
+(Found maximum of 2 linkages )
+Those that want to come can come . 
+#jo AnA cAhawe hEM #vaha A sakawe hEM
+
+Hindi meaning using Link parser 3.83
+(Found maximum of 1 linkages )
+The best costumes got prizes . 
+acCe pahanAvoM ne puraskAra prApwa kie/kiye
+
+Hindi meaning using Link parser 3.84
+(Found maximum of 1 linkages )
+Five other costumes got prizes . 
+#pAzca anya pahanAvoM ne puraskAra prApwa kie/kiye
+
+Hindi meaning using Link parser 3.85
+(Found maximum of 66 linkages )
+We are thinking about going to a movie this evening . 
+#hama #Aja saMXyA calaciwra jAne ke bAre meM soca rahe hEM
+
+Hindi meaning using Link parser 3.86
+(Found maximum of 2 linkages )
+The party last week was a big success . 
+pArtI piCale sapwAha badI #saPala WI
+
+Hindi meaning using Link parser 3.87
+(Found maximum of 1 linkages )
+How much oil spilled ? 
+kiwanA wela CalakA
+
+Hindi meaning using Link parser 3.88
+(Found maximum of 1 linkages )
+I wonder how John did it . 
+mEM AScaryacakiwa howA hUz #jOYna ne yaha #kEse kiyA
+
+Hindi meaning using Link parser 3.89
+(Found maximum of 4 linkages )
+How many years did it take to do it ? 
+isane yaha karane ke liye kiwane varRa liye/lie
+
+Hindi meaning using Link parser 3.90
+(Found maximum of 4 linkages )
+I wonder how much oil spilled . 
+mEM AScaryacakiwa howA hUz ki kiwanA wela CalakA
+
+Hindi meaning using Link parser 3.91
+(Found maximum of 1 linkages )
+Whatever the outcome is , I am sure he will still be popular . 
+jo_kuCa #BI pariNAma hE muJe/muJako #pakkA hE vaha aBI #BI lokapriya hogA
+
+Hindi meaning using Link parser 3.92
+(Found maximum of 12 linkages )
+The man we saw when we went to Paris is here . 
+jise/jisako hamane xeKA #jaba #hama \@Paris gaye #vaha AxamI #yahAz hE
+
+Hindi meaning using Link parser 3.93
+(Found maximum of 1 linkages )
+I left , therefore I did not see Ann . 
+mEM calA gayA #isaliye mEM \@Ann se nahIM milA WA
+
+Hindi meaning using Link parser 3.94
+(Found maximum of 1 linkages )
+She is apparently an excellent pianist . 
+vaha spaRtarUpa #se eka uwwama #piyAno bajAne vAlI hE
+
+Hindi meaning using Link parser 3.95
+(Found maximum of 1 linkages )
+But why did you send him that nasty note . 
+#paranwu Apane usako/use vaha apriya tippaNI #kyoM BejI
+
+Hindi meaning using Link parser 3.96
+(Found maximum of 1 linkages )
+Are John or I invited ? 
+kyA #jOYna #yA mEM AmaMwriwa kiyA gayA hUz
+
+Hindi meaning using Link parser 3.97
+(Found maximum of 1 linkages )
+Are neither John nor I invited ? 
+kyA na #hI #jOYna #na mEM AmaMwriwa kiyA gayA hUz
+
+Hindi meaning using Link parser 3.98
+(Found maximum of 4 linkages )
+The dog and cats know what happened . 
+#kuwwA #Ora billiyAz jAnawI hEM ki #kyA huA
+
+Hindi meaning using Link parser 3.99
+(Found maximum of 2 linkages )
+Neither I nor my friend knows what happened . 
+na #hI #mEM #na #merA miwra jAnawA hE ki #kyA huA
+
+Hindi meaning using Link parser 3.100
+(Found maximum of 2 linkages )
+Either I or my friend know what happened . 
+yA #wo #mEM #yA #merA miwra jAnawe hEM ki #kyA huA
+
+Hindi meaning using Link parser 4.1
+(Found maximum of 3 linkages )
+There is a dog or a cat here . 
+#yahAz billI #yA kuwwA hE
+
+Hindi meaning using Link parser 4.2
+(Found maximum of 6 linkages )
+I was both angry and sad at the same time . 
+mEM vahI samaya para uxAsa #Ora kroXiwa #xono WA
+
+Hindi meaning using Link parser 4.3
+(Found maximum of 4 linkages )
+It is important to fix the problem . 
+samasyA ko sulaJAnA mahawvapUrNa hE
+
+Hindi meaning using Link parser 4.4
+(Found maximum of 2 linkages )
+I hope that he comes to the party tomorrow . 
+mEM ASA karawA hUz #ki vaha #kala pArtI ko AyegA/AegA
+
+Hindi meaning using Link parser 4.5
+(Found maximum of 6 linkages )
+I told Margaret on Tuesday that I thought she would probably be hired . 
+mEMne maMgalavAra ko \@Margaret ko bawAyA #ki mEMne socA ki vaha #saMBavawaH majaxUrI_para raKI jAegI
+
+Hindi meaning using Link parser 4.6
+(Found maximum of 1 linkages )
+Who did you play tennis with ? 
+Apa tenisa kisake_sAWa Kele
+
+Hindi meaning using Link parser 4.7
+(Found maximum of 2 linkages )
+I told him by telephone that I was coming by car . 
+mEMne teliPona_se usako/use bawAyA #ki mEM kAra_se A rahA WA
+
+Hindi meaning using Link parser 4.8
+(Found maximum of 6 linkages )
+She was the last to arrive there . 
+vaha vahAz #para pahuzcane ke liye #AKirI WI
+
+Hindi meaning using Link parser 4.9
+(Found maximum of 1 linkages )
+I met him last in a market-place . 
+mEM cOka meM piCalI #bAra usako/use milA
+
+Hindi meaning using Link parser 4.10
+(Found maximum of 1 linkages )
+He spoke last on this issue . 
+vaha isa viRaya para AKIra #meM bolA
+
+Hindi meaning using Link parser 4.11
+(Found maximum of 2 linkages )
+We caught the last bus for home . 
+hamane Gara ke liye AKirI basa pakadI
+
+Hindi meaning using Link parser 4.12
+(Found maximum of 2 linkages )
+Whether we should go to the party is the important question . 
+#kyA hameM/hamako pArtI jAnA cAhiye yaha mahawvapUrNa praSna hE
+
+Hindi meaning using Link parser 4.13
+(Found maximum of 6 linkages )
+I should have talked to you before the inviting of John . 
+muJe/muJako #jOYna ko AmaMwriwa karane #se pahale Apase bAwacIwa karanI cAhiye WI
+
+Hindi meaning using Link parser 4.14
+(Found maximum of 14 linkages )
+He was sitting next to Mohan's brother . 
+vaha \@Mohan ke BAI ke pAsa bETA WA
+
+Hindi meaning using Link parser 4.15
+(Found maximum of 1 linkages )
+She handled it skillfully and with compassion . 
+usane anukaMpA ke sAWa #Ora kuSalawApUrvaka yaha #samBAla
+
+Hindi meaning using Link parser 4.16
+(Found maximum of 4 linkages )
+High income taxes are important . 
+#aXika Aya kara mahawvapUrNa hEM
+
+Hindi meaning using Link parser 4.17
+(Found maximum of 2 linkages )
+An income tax increase may be necessary . 
+#Ayakara vqxXi AvaSyaka ho sakawI hE
+
+Hindi meaning using Link parser 4.18
+(Found maximum of 4 linkages )
+The sleeping of students can ruin a lecture . 
+vixyArWiyoM kA sonA vyAKyAna nIrasa_kara sakawA hE
+
+Hindi meaning using Link parser 4.19
+(Found maximum of 2 linkages )
+The sleeping of students is becoming a big problem . 
+vixyArWiyoM kA sonA eka badI samasyA bana rahA hE
+
+Hindi meaning using Link parser 4.20
+(Found maximum of 2 linkages )
+He made a request that there be an investigation . 
+usane anuroXa kiyA #ki eka wahakIkAwa ho
+
+Hindi meaning using Link parser 4.21
+(Found maximum of 4 linkages )
+My uncle's mother's cousin is visiting us . 
+mere cAcA kI mAz kA cacerA BAI #hameM xeKane_A rahA hE
+
+Hindi meaning using Link parser 4.22
+(Found maximum of 4 linkages )
+Joan Smith is the president of the company . 
+\@Joan \@Smith #kaMpanI kA aXyakRa hE
+
+Hindi meaning using Link parser 4.23
+(Found maximum of 2 linkages )
+The explosion damaged his hearing . 
+visPota ne usakI SravaNa_Sakwi_ko bigAda xiyA
+
+Hindi meaning using Link parser 4.24
+(Found maximum of 1 linkages )
+Many people were angered by the hearings . 
+bahuwa #se vyakwi sunavAI_ke_xvArA kroXiwa kie/kiye gaye We
+
+Hindi meaning using Link parser 4.25
+(Found maximum of 4 linkages )
+I am in New York and I would like to see you . 
+mEM #nyUyArka meM hUz #Ora mEM Apase milanA pasaMxa karUzgA
+
+Hindi meaning using Link parser 4.26
+(Found maximum of 4 linkages )
+I bought a golden bangle for my mother . 
+mEMne merI mAz ke liye eka #sone kI cUdI KarIxI
+
+Hindi meaning using Link parser 4.27
+(Found maximum of 3 linkages )
+The mother calmed the angry son . 
+mAz ne kroXiwa bete ko SAnwa kiyA
+
+Hindi meaning using Link parser 4.28
+(Found maximum of 1 linkages )
+Let us go to the market . 
+caliye #hama bAjAra jAyeM/jAez
+
+Hindi meaning using Link parser 4.29
+(Found maximum of 1 linkages )
+Let her go to the market . 
+usako/use bAjAra jAne xo
+
+Hindi meaning using Link parser 4.30
+(Found maximum of 3 linkages )
+He deals fairly with his employees . 
+vaha usake karmacAriyoM ke sAWa #nyAyapUrvaka vyavahAra karawA hE
+
+Hindi meaning using Link parser 4.31
+(Found maximum of 4 linkages )
+Everyone should maintain peace on the earth . 
+prawyeka vyakwi ko pqWvI para amana banAe raKane/raKanA cAhiye
+
+Hindi meaning using Link parser 4.32
+(Found maximum of 9 linkages )
+It is true that you are my friend but I can not go along with you on this issue . 
+yaha #sawya hE #ki Apa mere miwra hEM #paranwu mEM isa viRaya para Apake_sAWa Age_nahIM_baDa sakawA hUz
+
+Hindi meaning using Link parser 4.33
+(Found maximum of 3 linkages )
+There is a heap of garbage near the house . 
+Gara #ke nikata kUde kA Dera hE
+
+Hindi meaning using Link parser 4.34
+(Found maximum of 1 linkages )
+If we heat iron it becomes red . 
+#yaxi #hama lohA garama karawe hEM wo yaha lAla howA hE
+
+Hindi meaning using Link parser 4.35
+(Found maximum of 2 linkages )
+John is more intelligent than Tom . 
+#jOYna \@Tom kI_wulanA #meM #aXika buxXimAna hE
+
+Hindi meaning using Link parser 4.36
+(Found maximum of 2 linkages )
+He says that you like to swim . 
+vaha kahawA hE #ki Apa wEranA pasaMxa karawe hEM
+
+Hindi meaning using Link parser 4.37
+(Found maximum of 2 linkages )
+If you know who did it , you should tell the teacher . 
+#yaxi Apa jAnawe hEM ki yaha kisane kiyA wo Apako SikRaka ko bawAnA cAhiye
+
+Hindi meaning using Link parser 4.38
+(Found maximum of 1 linkages )
+The sparrow made a beautiful nest . 
+gOrEyA ne eka sunxara GoMsalA banAyA
+
+Hindi meaning using Link parser 4.39
+(Found maximum of 1 linkages )
+Do not neglect your duties . 
+Apake karwavyoM kI upekRA_mawa kariye/kIjiye
+
+Hindi meaning using Link parser 4.40
+(Found maximum of 1 linkages )
+Is neither John nor I invited ? 
+kyA na #hI #jOYna #na mEM AmaMwriwa kiyA huA hUz
+
+Hindi meaning using Link parser 4.41
+(Found maximum of 12 linkages )
+Neither Mary nor Louise are coming to the party . 
+na #hI \@Mary #na \@Louise pArtI ko A rahe hEM
+
+Hindi meaning using Link parser 4.42
+(Found maximum of 1 linkages )
+She looks beautiful . 
+vaha sunxara xiKawI hE
+
+Hindi meaning using Link parser 4.43
+(Found maximum of 2 linkages )
+There is a ghost in the room . 
+kamare meM BUwa hE
+
+Hindi meaning using Link parser 4.44
+(Found maximum of 2 linkages )
+The man has been killed by the police . 
+AxamI #pulIsa ke xvArA mArA gayA hE
+
+Hindi meaning using Link parser 4.45
+(Found maximum of 8 linkages )
+Sam , my brother is coming . 
+\@Sam merA BAI A rahA hE
+
+Hindi meaning using Link parser 4.46
+(Found maximum of 2 linkages )
+The parents documented every step of their child's development . 
+mAz #bApa ne unake bacce ke vikAsa kA prawyeka caraNa liKA
+
+Hindi meaning using Link parser 4.47
+(Found maximum of 1 linkages )
+I saw the man who you love . 
+mEMne usa AxamI ko xeKA jise/jisako Apa pasanxa karawe hEM
+
+Hindi meaning using Link parser 4.48
+(Found maximum of 1 linkages )
+Kennedy has been killed . 
+\@Kennedy mArA gayA hE
+
+Hindi meaning using Link parser 4.49
+(Found maximum of 1 linkages )
+Drink plenty of water to keep good health . 
+acCA svAsWya raKane ke liye pAnI #paryApwa pIjiye
+
+Hindi meaning using Link parser 4.50
+(Found maximum of 2 linkages )
+I went there to buy a book . 
+mEM puswaka KarIxane ke liye vahAz #para gayA
+
+Calling Interface related programs

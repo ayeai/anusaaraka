@@ -1,0 +1,12 @@
+;~~~~~~~~~~
+(rel_name-sids nsubj L2 L1)(rel_name-sids nsubj L5 L3)(rel_name-sids aux L5 L4)(rel_name-sids ccomp L2 L5)(rel_name-sids xcomp L2 L5);~~~~~~~~~~
+(rel_name-sids nsubj L3 L1)(rel_name-sids aux L3 L2)(rel_name-sids nsubj L5 L4)(rel_name-sids ccomp L3 L5)(rel_name-sids aux L7 L6)(rel_name-sids xcomp L5 L7)(rel_name-sids advmod L7 L8);~~~~~~~~~~
+;~~~~~~~~~~
+(rel_name-sids nsubj L2 L1)(rel_name-sids nsubj L5 L3)(rel_name-sids aux L5 L4)(rel_name-sids ccomp L2 L5)(rel_name-sids xcomp L2 L5);~~~~~~~~~~
+(rel_name-sids nsubj L3 L1)(rel_name-sids aux L3 L2)(rel_name-sids nsubj L5 L4)(rel_name-sids ccomp L3 L5)(rel_name-sids aux L7 L6)(rel_name-sids xcomp L5 L7)(rel_name-sids advmod L7 L8);~~~~~~~~~~
+;~~~~~~~~~~
+(rel_name-sids nsubj L2 L1)(rel_name-sids nsubj L5 L3)(rel_name-sids aux L5 L4)(rel_name-sids ccomp L2 L5)(rel_name-sids xcomp L2 L5);~~~~~~~~~~
+(rel_name-sids nsubj L3 L1)(rel_name-sids aux L3 L2)(rel_name-sids nsubj L5 L4)(rel_name-sids ccomp L3 L5)(rel_name-sids aux L7 L6)(rel_name-sids xcomp L5 L7)(rel_name-sids advmod L7 L8);~~~~~~~~~~
+;~~~~~~~~~~
+(rel_name-sids nsubj L2 L1)(rel_name-sids nsubj L5 L3)(rel_name-sids aux L5 L4)(rel_name-sids ccomp L2 L5)(rel_name-sids xcomp L2 L5);~~~~~~~~~~
+(rel_name-sids nsubj L3 L1)(rel_name-sids aux L3 L2)(rel_name-sids nsubj L5 L4)(rel_name-sids ccomp L3 L5)(rel_name-sids aux L7 L6)(rel_name-sids xcomp L5 L7)(rel_name-sids advmod L7 L8);~~~~~~~~~~
