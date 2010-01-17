@@ -204,3 +204,10 @@ LEFT-WALL I.p need.v a new.a pair.n of trousers.n to.r go.v with this.d jacket.n
  if not 
  Can you give an example?
  
+
+-------
+ Should word "all"  be kept in plural_words_list.gdbm
+ for this sentences " All are well." 
+ it is correct,  where as for the the below sentence
+ " All is well." It is not correct .How this should be handled??
+
