@@ -54,7 +54,7 @@
  (defrule number_frm_wsd
  (declare (salience 1150)) 
  (id-wsd_number ?id ?num)
- (not (id-number-src ?id ?))
+ (not (id-number-src ?id ? ?))
   =>
         (assert (id-number-src ?id  ?num WSD))
  )
@@ -64,6 +64,7 @@
  (declare (salience 1100))
  (link_name-link_expansion   ?sub   S s $?vars)
  (link_name-lnode-rnode ?sub ?lnode ?rnode)
+ (not (id-number-src ?lnode ? ?))
  =>
 	(assert (id-number-src ?lnode  s Link_parser))
  )
@@ -73,6 +74,7 @@
  (declare (salience 1100))
  (link_name-link_expansion   ?sub   S p $?vars)
  (link_name-lnode-rnode ?sub ?lnode ?rnode)
+ (not (id-number-src ?lnode ? ?))
  =>
 	(assert (id-number-src ?lnode  p Link_parser))
  )
@@ -82,6 +84,7 @@
  (declare (salience 1050))
  (link_name-link_expansion   ?sub   S I s $?vars)
  (link_name-lnode-rnode ?sub ?lnode ?rnode)
+ (not (id-number-src ?lnode ? ?))
  =>
 	(assert (id-number-src ?lnode  s Link_parser))
  )
@@ -91,6 +94,7 @@
  (declare (salience 1050))
  (link_name-link_expansion   ?sub   S I p $?vars)
  (link_name-lnode-rnode ?sub ?lnode ?rnode)
+ (not (id-number-src ?lnode ? ?))
  =>
 	(assert (id-number-src ?lnode  p Link_parser))
  )
@@ -100,7 +104,7 @@
  (pada_info (group_head_id ?pada_id))
  ?f1<-(id-root-category-suffix-number  ?pada_id ? ?morph_cat ?suf ?num)
  (test (neq ?num -))
- (not (id-number-src ?pada_id ?))
+ (not (id-number-src ?pada_id ? ?))
 ; ?f0<-(vachan_to_be_decided ?pada_id)
  =>
 	(retract ?f1)
@@ -113,7 +117,7 @@
  (id-original_word ?det_id A|a|An|an)
  ?f1<-(id-root-category-suffix-number  ?pada_id ? ?morph_cat ?suf ?num)
  ;(test (neq ?num -))
- (not (id-number-src ?pada_id ?))
+ (not (id-number-src ?pada_id ? ?))
  =>
 ;	(if (or(eq ?word A)(eq ?word An)(eq ?word an)(eq ?word a)) then
 		(retract ?f1)
@@ -127,7 +131,7 @@
  (id-original_word ?wrd_id ?word)
  ?f1<-(id-root-category-suffix-number  ?pada_id ? ?morph_cat ?suf ?num)
  (test (neq ?num -))
- (not (id-number-src ?pada_id ?num1))
+ (not (id-number-src ?pada_id ?num1 ?))
  =>
  	(bind ?flag 0)
 	(bind ?length (length $?word_ids))
@@ -146,9 +150,9 @@
  ; All are going to school .
  ; Added by Shirisha Manju (23-11-09)
  (defrule get_num_frm_plural_list
- (declare (salience 600))
+ (declare (salience 1140))
  (id-word ?id ?word&:(not (numberp ?word)))
- (not (id-number-src ?id ?num))
+ (not (id-number-src ?id ?num ?))
  =>
 	(bind ?a (gdbm_lookup "plural_words.gdbm" ?word))
         (if (neq ?a "FALSE") then
@@ -159,7 +163,7 @@
  (defrule get_num
  (declare (salience 500))
  (id-root-category-suffix-number  ?pada_id ? ?morph_cat ?suf ?num)
- (not (id-number-src ?pada_id ?))
+ (not (id-number-src ?pada_id ? ?))
  =>
 	(if (neq ?num -) then
 		(assert (id-number-src ?pada_id ?num Morph))

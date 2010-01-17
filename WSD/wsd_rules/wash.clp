@@ -125,6 +125,21 @@
 (printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  wash.clp 	wash8   "  ?id "  Xo )" crlf))
 )
 
+;Added by sheetal(29-12-2009).
+(defrule wash9
+(declare (salience 4200))
+(id-root ?id wash)
+?mng <-(meaning_to_be_decided ?id)
+(id-cat_coarse ?id verb)
+(id-root ?id2 flood)
+(kriyA-upasarga ?id ?id1)
+=>
+(retract ?mng)
+(assert (affecting_id-affected_ids-wsd_group_root_mng ?id ?id1 bahA_xe))
+(if ?*debug_flag* then
+(printout wsd_fp "(dir_name-file_name-rule_name-affecting_id-affected_ids-wsd_group_root_mng   " ?*wsd_dir* "  wash.clp      wash9   "  ?id "  bahA_xe )" crlf))
+)
+;The whole village was washed away by the floods .
 ;"wash","VTI","1.XonA"
 ;You wash the clothes
 ;

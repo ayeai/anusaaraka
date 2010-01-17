@@ -35,9 +35,9 @@
 (id-cat_coarse ?id verb)
 =>
 (retract ?mng)
-(assert (id-wsd_root_mng ?id AScaryacakiwa_honA))
+(assert (id-wsd_root_mng ?id AScaryacakiwa_ho));Modified meaning "AScaryacakiwa_honA" to "AScaryacakiwa_ho" by Meena(16-01-10)
 (if ?*debug_flag* then
-(printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  wonder.clp 	wonder2   "  ?id "  AScaryacakiwa_honA )" crlf))
+(printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  wonder.clp 	wonder2   "  ?id "  AScaryacakiwa_ho )" crlf))
 )
 
 ; mEM AScaryacakiwa howA hUz Vs muHe acaraja howA hE

@@ -16,6 +16,7 @@
  (create$ (reverse (rest$ ?a)) (first$ ?a))))
 
  (deffacts dummy_facts 
+ (kriyA-kqxanwa_karma) 
  (id-HM-source)
  (kriyA-samakAlika_kriyA) 
  (niReXawmaka_vAkya) 
@@ -592,6 +593,25 @@
         (bind $?list (insert$ $?list ?pos ?obj_id))
         (assert(list $?list ?h_kriyA)) 
   (printout t "(Rule_name-before_movement-after_movement  object_rule1  ("(implode$ ?*k_list_debug*)")   ("(implode$ $?list)" "?h_kriyA"))" crlf)
+  )
+
+  ;Moving object_samAnAXikaraNa to after object position in the sentence.(suggested by Sheetal 06-01-10)
+  ;We have undertaken a project to make the city clean .
+  (defrule object_samAnAXikaraNa_rule
+  (declare (salience 350))
+  (object-object_samAnAXikaraNa ?obj_id ?object_samAnAXikaraNa)
+  ?f<-(list $?list)
+  ?f1<-(list_control_fact ?object_samAnAXikaraNa)
+  (test (member$ ?obj_id $?list))
+  (test (member$ ?object_samAnAXikaraNa $?list))
+   =>
+        (retract ?f ?f1)
+        (bind ?*k_list_debug*  (create$ $?list))
+        (bind $?list (delete-member$ $?list ?object_samAnAXikaraNa))
+         (bind ?pos (member$ ?obj_id $?list))
+         (bind $?list (insert$ $?list (+ ?pos 1) ?object_samAnAXikaraNa))
+         (assert (list $?list))
+          (printout t "(Rule_name-before_movement-after_movement  object_samAnAXikaraNa_rule  ("(implode$ ?*k_list_debug*)")   ("(implode$ $?list)")" crlf)
   )
 
 

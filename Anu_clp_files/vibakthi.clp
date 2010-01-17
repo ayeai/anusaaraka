@@ -243,6 +243,7 @@
  )
 ;------------------------------------------------------------------------------------------
  (deffacts dummy_facts 
+ (kriyA-kqxanwa_karma) 
  (kriyA-samakAlika_kriyA) 
  (niReXawmaka_vAkya) 
  (id-wsd_number) 

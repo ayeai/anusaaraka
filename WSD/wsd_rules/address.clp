@@ -81,6 +81,22 @@
 (printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  address.clp 	address5   "  ?id "  saMboXiwa_kara )" crlf))
 )
 
+;Addd by sheetal(26-12-2009).
+(defrule address6
+(declare (salience 4950))
+(id-root ?id address)
+?mng <-(meaning_to_be_decided ?id)
+(id-word =(- ?id 1) welcome)
+(id-cat_coarse ?id noun)
+=>
+(retract ?mng)
+(assert (affecting_id-affected_ids-wsd_group_root_mng ?id =(- ?id 1) svAgawa_BARaNa))
+(if ?*debug_flag* then
+(printout wsd_fp "(dir_name-file_name-rule_name-affecting_id-affected_ids-wsd_group_root_mng   " ?*wsd_dir* "  address.clp   address6   "  ?id "  svAgawa_BARaNa )" crlf))
+)
+;The chief guest gave a welcome address .
+
+
 ;default_sense && category=verb	pawA_liKa	0
 ;"address","V","1.pawA_liKanA"
 ;Did you address the letter?

@@ -1746,6 +1746,22 @@
 (printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  get.clp 	get112   "  ?id "  prApwa_kara )" crlf))
 )
 
+
+;Added by sheetal(29-12-2009).
+(defrule get113
+(declare (salience 4950))
+(id-root ?id get)
+?mng <-(meaning_to_be_decided ?id)
+(id-root =(+ ?id 1) wet)
+=>
+(retract ?mng)
+(assert (id-wsd_root_mng ?id ho))
+(if ?*debug_flag* then
+(printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  get.clp      get113   "  ?id "  ho )" crlf))
+)
+;Do not get wet in the rain .
+
+
 ;default_sense && category=verb	mila	0
 ;"get","V","1.milanA"
 ;I get my salary on the 7th of every month.

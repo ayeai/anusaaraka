@@ -37,8 +37,10 @@
 =>
 (retract ?mng)
 (assert (id-wsd_root_mng ?id prawilipi_nikAla))
+(assert (kriyA_id-object_viBakwi ?id kI));Added by sheetal (03-01-2010)
 (if ?*debug_flag* then
-(printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  xerox.clp 	xerox2   "  ?id "  prawilipi_nikAla )" crlf))
+(printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  xerox.clp 	xerox2   "  ?id "  prawilipi_nikAla )" crlf)
+(printout wsd_fp "(dir_name-file_name-rule_name-kriyA_id-object_viBakwi   " ?*prov_dir* "  xerox.clp     xerox2   "  ?id "  kI )" crlf))
 )
 
 ;"xerox","V","1.prawilipi_nikAlanA"

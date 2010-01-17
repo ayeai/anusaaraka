@@ -14,6 +14,7 @@
  (defglobal ?*prov_dir* = ?*provisional_wsd_path*)
  (defglobal ?*wsd_dir* = (create$ (str-cat ?*path* "/WSD/wsd_rules/")))
  (defglobal ?*debug_flag* = TRUE)
+ (defglobal ?*count* = 1)
  
  (dribble-on debug_info)
  (facts)
@@ -21,32 +22,43 @@
  (system "zenity  --text-info  --filename=debug_info  --width=560  --height=300  &")
  (assert (question "Enter the tam id ::  "))
  (assert (next_id 1))
+ (assert (English-list))
 
  (defrule display_sentence
  (declare (salience 100))
  ?f<-(next_id ?id)
- (id-word ?id ?word)
+ ?f1<-(English-list $?Eng_list)
+ (id-original_word ?id ?word)
  =>
- (retract ?f)
- (if (eq ?id 1) then (printout t crlf))
- (format t " %s - %d |" ?word ?id)
+ (retract ?f ?f1)
+ (if (eq ?id 1) then (printout t crlf crlf))
+ (if (> ?*count* 6) then
+     (bind ?*count* 0)
+     (printout t crlf))
+
+ (printout t " "?word " - "?id" |")
+ (bind ?*count* (+ ?*count* 1))
+ (bind ?word (str-cat ?word ))
+ (assert (English-list $?Eng_list ?word))
  (bind ?id (+ ?id 1))
  (assert (next_id ?id))
  )
 
  (defrule display
+ (declare (salience 99));n
  ?f0<-(next_id ?id)
   =>
  (retract ?f0)
- (printout t crlf crlf " The tams present in the sentence are : " crlf  crlf )
+ (printout t crlf crlf " The tams present in the sentence are : " crlf  )
+ (printout t "<=====================================>" crlf)
  )
 
  (defrule display_tams
- (declare (salience 90))
+ (declare (salience 98))
  ?f0<-(id-TAM ?id ?tam)
  =>
  (retract ?f0)
- (printout t crlf  ?tam " with id " ?id crlf)
+ (printout t crlf "  " ?tam " --- with id --- " ?id crlf)
  (assert (id-tam ?id ?tam))
  )
 
@@ -55,12 +67,14 @@
  ?f<-(question ?text)
  =>
  (retract ?f)
+ (printout t crlf)
  (format t " %s " ?text)
  (bind ?reply (read))
  (assert (get-tam_id ?reply))
  )
  
  (defrule tam_exists
+ (declare (salience 75))
  ?f<-(get-tam_id ?id)
  (id-tam ?id ?tam)
  =>
@@ -69,6 +83,7 @@
  )
 
  (defrule tam_exists1
+ (declare (salience 74))
  ?f<-(get-tam_id ?id)
  =>
  (retract ?f)
@@ -77,18 +92,18 @@
  )
 
  (defrule wsd_tam_mng
- (declare (salience 80))
+ (declare (salience 70))
  ?f<-(get_rule_fired ?id ?tam)
  (dir_name-file_name-rule_name-id-H_tam_mng ?dir_name  ?file_name ?rule_name ?id ?tam_mng)
  =>
  (retract ?f)
- (printout t crlf "Tam  meaning has been generated from  WSD" crlf )
- (printout t crlf "Meaning has been generated from WSD (" ?dir_name ") " crlf crlf)
+ (printout t crlf "Tam meaning has been generated from WSD (" ?dir_name ") " crlf crlf)
  (printout t crlf "File_name :: "?file_name"   Rule_name :: " ?rule_name "   Meaning :: \"" ?tam_mng "\"" crlf crlf)
  (assert(all_tam_mngs ?id ?tam))
  )
 
  (defrule default_tam_mng
+ (declare (salience 65))
  ?f<-(get_rule_fired ?id ?tam)
  (pada_info (group_head_id ?id)(group_cat VP)(H_tam ?tam_mng)(tam_source Default))
  =>
@@ -96,6 +111,17 @@
  (printout t crlf "Tam ::  \"" ?tam  "\"      Meaning  :: \"" ?tam_mng "\"    Generated from  \"Default tam database\" " crlf crlf)
  (assert(all_tam_mngs ?id ?tam))
  )
+
+ (defrule no_tam_mng
+ (declare (salience 60))
+ ?f<-(get_rule_fired ?id ?tam)
+ (pada_info (group_head_id ?id)(group_cat VP)(H_tam ?tam_mng)(tam_source 0))
+ =>
+ (retract ?f)
+ (printout t crlf  "No Meaning was found for the tam \"" ?tam "\" , in any source( WSD/default database) \""crlf crlf)
+ (assert(all_tam_mngs ?id ?tam))
+ )
+
 
  (defrule possible_mngs_for_tam
  (all_tam_mngs ?id ?tam)
@@ -114,7 +140,7 @@
    (bind ?tam_file1 (str-cat ?*provisional_wsd_path* "/" ?tam "_tam.clp"))
    (if (and (eq (load* ?tam_file) FALSE)(eq (load* ?tam_file1) FALSE) ) then
            (printout t crlf "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" crlf )
-	   (printout t crlf "There is no rule file with tam \"" ?tam  "\"" )
+	   (printout t      "There is no rule file with tam \"" ?tam  "\"" )
            (printout t crlf "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" crlf )    
            (printout t " Do you want to search for another tam (y/n) " crlf)
            (bind ?reply (read))
@@ -124,6 +150,7 @@
               (assert (question "Enter the tam id ::  ")) 
            )
    )
+   (close fp)
  )
 
  (defrule expected_mng

@@ -107,7 +107,7 @@ sub generate {
 	
 		$kriyA_mula = $1;
 		$aper_root = $2;
-		$aper_root =~ s/nA$//;
+		#$aper_root =~ s/nA$//;
 	}
 	else { $kriyA_mula="";$aper_root = $root;}
 

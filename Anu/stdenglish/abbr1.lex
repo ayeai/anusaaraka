@@ -33,6 +33,7 @@ SPC [^a-zA-Z0-9]
 {SPC}U\.S\.A\.{SPC}	{printf("%cUABBRDOTABBRSABBRDOTABBRAABBRDOTABBR%c",yytext[0],yytext[7]);}
 {SPC}U\.K\.{SPC}	{printf("%cUABBRDOTABBRKABBRDOTABBR%c",yytext[0],yytext[5]);}
 {SPC}A\.D\.{SPC}	{printf("%cAABBRDOTABBRDABBRDOTABBR%c",yytext[0],yytext[5]);}
+{SPC}a\.k\.a\.{SPC} 	{printf("%caABBRDOTABBRkABBRDOTABBRaABBRDOTABBR%c",yytext[0],yytext[7]);}
 %%
 main()
 {

@@ -1115,6 +1115,24 @@
 )
 
 
+
+;Added by sheetal(14-01-10).
+(defrule to59
+(declare (salience 1150))
+(id-root ?id to)
+?mng <-(meaning_to_be_decided ?id)
+(kriyA-to_saMbanXI  ?id1 ?id2)
+(id-root ?id1 heat)
+(id-root ?id2 temperature)
+=>
+(retract ?mng)
+(assert (id-wsd_root_mng ?id para))
+(if ?*debug_flag* then
+(printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  to.clp    to59   "  ?id "  para )" crlf))
+)
+;Food must be heated to a high temperature to kill harmful bacteria .
+
+
 ;"to","Prep","1.ko"
 ;Ram gave the book to Rama.
 ;--"2.waka"
@@ -1138,4 +1156,6 @@
 ;--"10.ke_anusAra"
 ;According to her he will not come.
 ;The dress may be nice but it is not to her liking.
+
+
 

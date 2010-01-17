@@ -19,9 +19,9 @@
 (id-cat_coarse ?id verb)
 =>
 (retract ?mng)
-(assert (id-wsd_root_mng ?id cihna_kara))
+(assert (id-wsd_root_mng ?id cihniwa_kara)) ;Meaning is modified by sheetal(03-01-2010). (cihna_kara to  cihniwa_kara)
 (if ?*debug_flag* then
-(printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  wale.clp 	wale1   "  ?id "  cihna_kara )" crlf))
+(printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  wale.clp 	wale1   "  ?id "  cihniwa_kara )" crlf))
 )
 
 ;"wale","VT","1.cihna_karanA"

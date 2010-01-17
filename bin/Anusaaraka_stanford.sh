@@ -79,7 +79,7 @@
  cd $HOME_anu_test/bin
  while read line
  do
-    echo "Hindi meanings for " $line
+    echo "Hindi meaning using Stanford parser" $line
    ./run_sentence_stanford.sh $1 $line 1 $MYPATH
     echo ""
  done < $MYPATH/tmp/$1_tmp/dir_names.txt

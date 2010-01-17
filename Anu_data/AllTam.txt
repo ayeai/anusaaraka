@@ -1,3 +1,15 @@
+0_wA_rahawA_hE,f,p,a	wI_rahawI_hEM
+0_wA_rahawA_hE,f,p,m	wI_rahawI_ho
+0_wA_rahawA_hE,f,p,u	wI_rahawI_hEM
+0_wA_rahawA_hE,f,s,a	wI_rahawI_hE
+0_wA_rahawA_hE,f,s,m	wI_rahawI_ho
+0_wA_rahawA_hE,f,s,u	wI_rahawI_hUM
+0_wA_rahawA_hE,m,p,a	we_rahawe_hEM
+0_wA_rahawA_hE,m,p,m	we_rahawe_ho
+0_wA_rahawA_hE,m,p,u	we_rahawe_hEM
+0_wA_rahawA_hE,m,s,a	wA_rahawA_hE
+0_wA_rahawA_hE,m,s,m	wA_rahawA_hE
+0_wA_rahawA_hE,m,s,u	wA_rahawA_hUM
 we_rahanA_hE,f,p,a	rahanA_hE
 we_rahanA_hE,f,p,m	rahanA_hE
 we_rahanA_hE,f,p,u	rahanA_hE

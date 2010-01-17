@@ -92,13 +92,15 @@
 ;He writes a letter with a pencil.
 ;He ate rice with a spoon
 
+;You must outline the important sentences with a marker .
 (defrule with5
 (declare (salience 5000))
 (id-root ?id with)
 ?mng <-(meaning_to_be_decided ?id)
 (kriyA-with_saMbanXI  ?id1 ?id2)
 ;(id-word =(+ ?id 1)  ~animate)
-(or(id-root ?id2 newspaper|spoon|pencil|pen|hand|telescope|flower|money|idol)(id-root ?id2 love|beauty|speed))
+(or(id-root ?id2 newspaper|spoon|pencil|pen|hand|telescope|flower|money|idol|marker);Added 'marker' to the list by Sheetal;(05-01-10);You must outline the important sentences with a marker .
+(id-root ?id2 love|beauty|speed))
 ;(or(viSeRya-det_viSeRaNa ?id2  ?id3)(viSeRya-viSeRana ?id2 ?id3))
 =>
 (retract ?mng)

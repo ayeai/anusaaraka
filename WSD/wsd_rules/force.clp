@@ -49,12 +49,14 @@
 
 
 ;Added by Meena(13.10.09)
+;Modified by Sukhada (30-12-09) as the relation name "kriyA-kqxanwa_viSeRaNa" has been modified as "kriyA-kqxanwa_karma".
 ;It struggled to force its body through that little hole . 
 (defrule force3
 (declare (salience 4700))
 (id-root ?id force)
 ?mng <-(meaning_to_be_decided ?id)
-(kriyA-kqxanwa_viSeRaNa  ?id1 ?id)
+;(kriyA-kqxanwa_viSeRaNa  ?id1 ?id)
+(kriyA-kqxanwa_karma  ?id1 ?id)
 =>
 (retract ?mng)
 (assert (id-wsd_root_mng ?id nikAla))

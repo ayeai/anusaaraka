@@ -29,3 +29,18 @@
 ;A large view. A large && knotty problem.
 ;
 ;
+
+;Added by Veena Bagga (06-01-2010)
+(defrule large2
+(declare (salience 6500))
+(id-root ?id large)
+;(Any)
+?mng <-(meaning_to_be_decided ?id)
+(id-cat_coarse ?id adjective)
+=>
+(retract ?mng)
+(assert (id-wsd_root_mng ?id badA))
+(if ?*debug_flag* then
+(printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  large.clp    large2   " ?id " badA)" crlf))
+) 
+;He is a large child for his age . 

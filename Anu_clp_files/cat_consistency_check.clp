@@ -46,16 +46,17 @@
   )
 
   ; I saw him telling her about the party
-  (defrule adverb_rule
+  (defrule wA_huA_kqxanwa
   (declare (salience 70))
   ?f0<-(parser_id-cat_coarse ?id ?cat)
-  (using-parser-ids kriyA-kqxanwa_viSeRaNa ?kriyA ?id)
+  (using-parser-ids kriyA-kqxanwa_karma ?kriyA ?id)
   (not (root-verbchunk-tam-parser_chunkids ? ? ? $? ?id))
   (parser_id-root-category-suffix-number ?id $? ing ?)
   =>
-        (retract ?f0)
-       (printout ?*cat_cons_tmp-file* "(parser_id-cat_coarse "?id" adverb )" crlf)
+       (retract ?f0)
+       (printout ?*cat_cons_tmp-file* "(parser_id-cat_coarse "?id" wA_huA_kqxanwa )" crlf)
   )
+;previously we were adverb category to -ing ending participals but becoz adverb is a very vast category and can be used for any word which doesn't fall in other categories.
 
   ; Building houses is a good profession (verbal-noun)
   ; He is building a castle.

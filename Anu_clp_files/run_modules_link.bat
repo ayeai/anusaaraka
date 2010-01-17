@@ -1,3 +1,4 @@
+ ;-----------------------------------------------------------------------
  (load "global_path.clp")
  (bind ?*path* (str-cat ?*path* "/Anu_clp_files/word_without_adverb.bclp"))
  (bload ?*path*)
@@ -410,6 +411,7 @@
  (load "global_path.clp")
  (bind ?*path* (str-cat ?*path* "/Anu_clp_files/number.bclp"))
  (bload ?*path*)
+ (load-facts "word.dat")
  (load-facts "pada_id_info.dat")
  (load-facts "revised_preferred_morph.dat")
  (load-facts "original_word.dat")

@@ -32,3 +32,18 @@
 ;The crowd jammed the street in protest against Mandal Commission.
 ;
 ;
+
+;Added by sheetal(6-01-10).
+(defrule jam2
+(declare (salience 4950))
+(id-root ?id jam)
+?mng <-(meaning_to_be_decided ?id)
+(id-word ?id jammed )
+(id-cat_coarse ?id adjective)
+=>
+(retract ?mng)
+(assert (id-wsd_root_mng ?id jAma))
+(if ?*debug_flag* then
+(printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  jam.clp   jam2   "  ?id "  jAma )" crlf))
+)
+;They used force to open the jammed door .

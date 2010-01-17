@@ -29,17 +29,18 @@
 
 ;"undertake","V","1.uwwaraxAyiwva_le"
 (defrule undertake2
-(declare (salience 4800))
+(declare (salience 4900))
 (id-root ?id undertake)
 ?mng <-(meaning_to_be_decided ?id)
 (id-cat_coarse ?id verb)
 =>
 (retract ?mng)
 (assert (id-wsd_root_mng ?id uwwaraxAyiwva_le))
-(assert (kriyA_id-subject_viBakwi ?id kA))
+(assert (kriyA_id-object_viBakwi ?id kA)) ;Modified (salience and subject-viBakwi to object-viBakwi ) by sheetal(2-01-10).
+                                            ;We have undertaken a project to make the city clean . 
 (if ?*debug_flag* then
 (printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  undertake.clp 	undertake2   "  ?id "  uwwaraxAyiwva_le )" crlf)
-(printout wsd_fp "(dir_name-file_name-rule_name-kriyA_id-subject_viBakwi   " ?*wsd_dir* "  undertake.clp         undertake2   "  ?id " kA )" crlf))
+(printout wsd_fp "(dir_name-file_name-rule_name-kriyA_id-object_viBakwi   " ?*wsd_dir* "  undertake.clp         undertake2   "  ?id " kA )" crlf))
 )
 
 ;"undertake","VTI","1.[kA]_uwwaraxAyiwva_lenA"

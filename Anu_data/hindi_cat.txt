@@ -5075,3 +5075,4 @@ yAca	T
 xOda	T
 muda	T
 pakada	T
+roka	T

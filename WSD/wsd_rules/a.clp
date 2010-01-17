@@ -266,6 +266,8 @@
 
 
 
+
+;Added (not(id-root ?id1 ....... |offer|salary)(Meena (11.01.10))
 ;Added by Meena(13.10.09)
 ;One day a small opening appeared.
 (defrule a20
@@ -274,7 +276,7 @@
 ?mng <-(meaning_to_be_decided ?id)
 (viSeRya-det_viSeRaNa  ?id1 ?id)
 (or (viSeRya-viSeRaNa ?id1 ?id2)(viSeRya-wulanAwmaka_viSeRaNa ?id1 ?id2)) 
-(not (id-root ?id1 sound|shame|success|effect|idea|manner))
+(not (id-root ?id1 sound|shame|success|effect|idea|manner|offer|salary))
 (not(id-cat_coarse ?id1 PropN))
 =>
 (retract ?mng)

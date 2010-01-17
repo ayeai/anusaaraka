@@ -139,3 +139,19 @@
 ;He opened a conversation on the issue of animal rights.
 ;
 ;
+
+;Added by sheetal(5-01-10).
+(defrule open9
+(declare (salience 4950))
+(id-root ?id open)
+?mng <-(meaning_to_be_decided ?id)
+(kriyA-object ?id ?id1)
+(id-root ?id1 conversation)
+=>
+(retract ?mng)
+(assert (id-wsd_root_mng ?id AramBa_kara))
+(if ?*debug_flag* then
+(printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  open.clp      open9   "  ?id "  AramBa_kara )" crlf))
+)
+;He opened a conversation on the issue of animal rights.
+

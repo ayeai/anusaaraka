@@ -159,7 +159,7 @@
 (declare (salience 4300))
 (id-root ?id right)
 ?mng <-(meaning_to_be_decided ?id)
-(id-root =(+ ?id 1) decision|person|people)
+(id-root =(+ ?id 1) decision|person|people|time) ;Added 'time' to the list by Veena Bagga (01-01-2010)
 (id-cat_coarse ?id adjective)
 =>
 (retract ?mng)
@@ -294,7 +294,7 @@
 
 
 
-;Salience reduced by Meena(14.11.09)
+;Salienceireduced by Meena(14.11.09)
 (defrule right14
 (declare (salience 0))
 ;(declare (salience 2500))
@@ -307,6 +307,7 @@
 (if ?*debug_flag* then
 (printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  right.clp 	right14   "  ?id "  TIka )" crlf))
 )
+
 
 ;"right","Adv","1.TIka"
 ;Nothing seems to be going right for him nowadays.

@@ -74,21 +74,23 @@
 (printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root   " ?*wsd_dir* "  see.clp    see2   "  ?id " see )" crlf))
 )
 
+;Modified by sheetal(2-01-10).
 (defrule see3
 (declare (salience 4700))
 (id-root ?id see)
 ?mng <-(meaning_to_be_decided ?id)
 (id-cat_coarse ?id verb)
+(not (id-word ?id1 anything));added by sheetal.
 =>
 (retract ?mng)
 (assert (id-wsd_root_mng ?id xeKa))
 (assert (kriyA_id-object_viBakwi ?id ko))
 (if ?*debug_flag* then
-(printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  see.clp 	see3   "  ?id "  xeKa )" crlf)
+(printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  see.clp       see3   "  ?id "  xeKa )" crlf)
 (printout wsd_fp "(dir_name-file_name-rule_name-kriyA_id-object_viBakwi   " ?*wsd_dir* "  see.clp       see3   "  ?id " ko )" crlf)
 )
 )
-
+;It was so dark that I could not see anything . 
 ;default_sense && category=verb	xeKa	0
 ;"see","V","1.xeKanA"
 ;I can see sun setting behind the sea.

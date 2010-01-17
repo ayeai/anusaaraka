@@ -16,9 +16,10 @@
  )
 
  ;May I go outside .
+ ;Will I be going to the market ?
  (defrule yes-no_question
  (rel_name-sids aux|cop ? L1)
- ?f1<-(s_id-word L1  May|Can|Could|Would|Do|Did|Has|Does|Have|Are)
+ ?f1<-(s_id-word L1  May|Can|Could|Would|Will|Do|Did|Has|Does|Have|Are)
  ?f0 <- (hindi_id_order  $?sent )
  =>
         (retract ?f0 ?f1)
@@ -128,4 +129,20 @@
  )
 ;Ex:  If you use that strategy , he will wipe you out .
 
- 
+ ; Added by Manju (06-012-09)
+ (defrule usa_rule
+ (declare (salience 100))
+ (kriyA-object  ?kri ?obj)
+ (viSeRya-jo_samAnAXikaraNa ?obj ?who)
+ ?f2<- (id-root ?kri see)
+ ?f1<-(id-word ?who who)
+ ?f0 <-(hindi_id_order $?hin_order)
+ (test (member$ ?obj $?hin_order))
+ =>
+        (retract ?f0 ?f1 ?f2)
+        (bind ?obj_pos (member$ ?obj $?hin_order))
+        (bind $?hin_order (insert$ $?hin_order ?obj_pos usa))
+        (assert (hindi_id_order $?hin_order))
+        (printout  ?*DBUG* "(Rule_Name-ids    usa_rule   (hindi_id_order  "(implode$ $?hin_order) ")" crlf)
+ )
+;I saw the man who you love. 

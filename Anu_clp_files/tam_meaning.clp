@@ -3,6 +3,7 @@
  (deftemplate tam_tmp_info (slot head_id (default 0))(slot eng_tam (default 0))(slot hin_tam (default 0))(slot subject_vibhakti (default 0))(slot preceding_part_of_the_verb (default 0)))
 
  (deffacts dummy_facts 
+ (kriyA-kqxanwa_karma) 
  (kriyA-samakAlika_kriyA) 
  (niReXawmaka_vAkya) 
  (id-wsd_number) 

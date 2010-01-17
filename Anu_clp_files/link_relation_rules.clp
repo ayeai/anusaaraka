@@ -75,6 +75,20 @@
 )
 ;Ex.	
 
+;(defrule kriyA-subject_and
+;(declare (salience 720))
+;(link_name-link_expansion    ?S   S $?vars)
+;(link_name-link_lnode-link_rnode ?S ?x ?kri)
+;(link_name-link_expansion    ?S1  S $?var)
+;(link_name-link_lnode-link_rnode ?S1 ?y ?kri)
+;(parser_id-root ?and and)
+;(test (< ?and (sub-string  2 4 ?y)))
+;=>
+;(printout       ?*fp*   "(using-parser-ids      kriyA-subject   "?kri"    "?and")"crlf)
+;(printout       ?*rel_debug*    "(Rule-Rel-ids  kriyA-subject_and  kriyA-subject   "?kri"    "?and")"crlf)
+;)
+;Ex. He and I are friends.
+
 (defrule kriyA-subject5
 (declare (salience 200))
 ?f0<- (link_name-link_expansion    ?lname    S F I $?vars)
@@ -597,6 +611,7 @@
 (printout	?*rel_debug*	"(Rule-Rel-ids	obj_kqxanwa_kriyA	object-kqxanwa_kriyA	"?b"	"?c")"crlf)
 )
 ;Ex.   This is a sample sentence given by me. 
+;?????? Disciss this.
 
 (defrule kqxanwa_kriyA-prep
 (link_name-link_expansion    ?O O $?v)
@@ -716,6 +731,7 @@
 (declare (salience 535))
 (link_name-link_lnode-link_rnode DTn ?x ?y)
 (link_name-link_lnode-link_rnode MVpn ?z ?y)
+(not (link_name-link_lnode-link_rnode Pa|Paf ?a ?z)) ;to stop this rel in the such sents: "The yield of kharif crops was not good this season."
 =>
 (printout	?*fp*	"(using-parser-ids 	kriyA-kAlavAcI	"?z"	"?y")"crlf)	
 (printout	?*rel_debug*	"(Rule-Rel-ids	rule43	kriyA-kAlavAcI	"?z"	"?y")"crlf)	
@@ -827,12 +843,24 @@
 
 (defrule rule125
 (link_name-link_lnode-link_rnode MVpn ?z ?x)
+(not (link_name-link_lnode-link_rnode Pa|Paf ?y ?z)) ;to stop this rel in the such sents: "The yield of kharif crops was not good this season."
 =>
 (printout	?*fp*	"(using-parser-ids 	kriyA-kAlavAcI	"?z"	"?x")"crlf)	
 (printout	?*rel_debug*	"(Rule-Rel-ids	rule125	kriyA-kAlavAcI	"?z"	"?x")"crlf)
 )
 ;Ex.	He came early today.
 
+(defrule S_Pa_MVpn
+(link_name-link_expansion    ?S S $?var)
+(link_name-link_lnode-link_rnode ?S ?s ?v)
+(link_name-link_expansion    ?Pa P a $?vari)
+(link_name-link_lnode-link_rnode ?Pa  ?v ?p)
+(link_name-link_lnode-link_rnode MVpn ?p ?kal)
+=>
+(printout       ?*fp*   "(using-parser-ids      kriyA-kAlavAcI  "?v"    "?kal")"crlf)
+(printout       ?*rel_debug*    "(Rule-Rel-ids	S_Pa_MVpn kriyA-kAlavAcI  "?v"    "?kal")"crlf)
+)
+;Ex.   The yield of kharif crops was not good this season.
 
 ;VISERYA-VISERANA RELATION RULES:
 (defrule rule71
@@ -1483,8 +1511,8 @@
 (defrule rule53
 (link_name-link_lnode-link_rnode GN ?x ?y)
 =>
-(printout	?*fp*	"(using-parser-ids 	subject-subject_samAnAXikaraNa	"?y"	"?x")"crlf)	
-(printout	?*rel_debug*	"(Rule-Rel-ids	rule53	subject-subject_samAnAXikaraNa	"?y"	"?x")"crlf)
+(printout	?*fp*	"(using-parser-ids 	saMjFA-saMjFA_samAnAXikaraNa	"?y"	"?x")"crlf)	
+(printout	?*rel_debug*	"(Rule-Rel-ids	rule53	saMjFA-saMjFA_samAnAXikaraNa	"?y"	"?x")"crlf)
 )
 ;Ex.	 "The ACTOR Eddie MURPHY attended the event".
 
@@ -1528,8 +1556,6 @@
 
 (defrule dummy-jo_samAnAXikaraNa
 (declare (salience 200))
-;(or (link_name-link_expansion    ?lname   S ~F $?vars)(link_name-link_expansion  ?lname  S ~I $?vars))
-;(link_name-link_lnode-link_rnode  ?lname  ?x ?y)
 (root-verbchunk-tam-parser_chunkids ? ? $?chunks ?y)
 (link_name-link_lnode-link_rnode Bp|Bs ?z ?y)
 (link_name-link_expansion    ?lname1 R n $?vars1)
@@ -1626,8 +1652,8 @@
 (link_name-link_lnode-link_rnode Pa ?d ?a)
 =>
 (retract ?f0);This condition is added to stop rule2, which shows kriyA_object relation) ;Date 21/02/09
-(printout	?*fp*	"(using-parser-ids 	saMjFA"/"sarvanAma-para	"?c"	"?b")"crlf)	
-(printout	?*rel_debug*	"(Rule-Rel-ids	OF_1	saMjFA"/"sarvanAma-para	"?c"	"?b")"crlf)	
+;(printout	?*fp*	"(using-parser-ids 	saMjFA"/"sarvanAma-para	"?c"	"?b")"crlf)	
+;(printout	?*rel_debug*	"(Rule-Rel-ids	OF_1	saMjFA"/"sarvanAma-para	"?c"	"?b")"crlf) ; commented on 2-1-10 bcoz there is no use of this relation.
 
 (printout	?*fp*	"(using-parser-ids 	kriyA-of_saMbanXI	"?d"	"?c")"crlf)	
 (printout	?*rel_debug*	"(Rule-Rel-ids	OF_1	kriyA-of_saMbanXI	"?d"	"?c")"crlf)
@@ -2167,15 +2193,16 @@ else
 )
 ;Ex.    keep quiet, she said. Be careful, she said.
 
-(defrule kriyA-vAkyakarma_1
+(defrule kriyA-kqxanwa_karma
 (link_name-link_lnode-link_rnode  QI   ?x ?y)
 (link_name-link_lnode-link_rnode  TOn  ?y ?z)
 (link_name-link_lnode-link_rnode  I    ?z ?a)
 =>
-(printout	?*fp*	"(using-parser-ids 	kriyA-kqxanwa_vAkyakarma	"?x"	"?a")"crlf)	
-(printout	?*rel_debug*	"(Rule-Rel-ids	kriyA-vAkyakarma_1	kriyA-kqxanwa_vAkyakarma	"?x"	"?a")"crlf)
+(printout	?*fp*	"(using-parser-ids 	kriyA-kqxanwa_karma	"?x"	"?a")"crlf)	
+(printout	?*rel_debug*	"(Rule-Rel-ids	kriyA-kqxanwa_karma	kriyA-kqxanwa_karma	"?x"	"?a")"crlf)
 )
-;Ex. I wonder, where to go. 
+;Ex. I wonder where to go. 
+;Ex. I wonder, where to go. Parser failed in this sentence.  
 
 (defrule kriyA-vAkyakarma_2
 (link_name-link_expansion ?S S $?var)
@@ -2277,11 +2304,12 @@ else
 (link_name-link_lnode-link_rnode Mp  ?x ?y)
 (link_name-link_expansion ?ID I D $?Var)
 (link_name-link_lnode-link_rnode ?ID ?z ?y)
+(link_name-link_lnode-link_rnode J|Js|Jp|Jw  ?y ?a)
 (linkid-word-node_cat ?z ?viBakwi ?)
 (linkid-word-node_cat ?y ?viBakwi1 ?)
 =>
-(printout	?*fp*	"(using-parser-ids 	viSeRya-"?viBakwi"_"?viBakwi1"_saMbanXI	"?x"	"?y")"crlf)	
-(printout	?*rel_debug*	"(Rule-Rel-ids	prep_IDIOM_1	viSeRya-"?viBakwi"_"?viBakwi1"_saMbanXI	"?x"	"?y")"crlf)
+(printout	?*fp*	"(using-parser-ids 	viSeRya-"?viBakwi"_"?viBakwi1"_saMbanXI	"?x"	"?a")"crlf)	
+(printout	?*rel_debug*	"(Rule-Rel-ids	prep_IDIOM_1	viSeRya-"?viBakwi"_"?viBakwi1"_saMbanXI	"?x"	"?a")"crlf)
 )
 ;Ex. They are having a party in front of the building. The children left dirty marks all over the kitchen floor.
 
@@ -2291,15 +2319,16 @@ else
 (link_name-link_lnode-link_rnode ?ID ?a ?b)
 (link_name-link_expansion ?ID1 I D $?Va)
 (link_name-link_lnode-link_rnode ?ID1 ?b ?y)
+(link_name-link_lnode-link_rnode J|Js|Jp|Jw  ?y ?c)
 (linkid-word-node_cat ?a ?viBakwi ?)
 (linkid-word-node_cat ?b ?viBakwi1 ?)
 (linkid-word-node_cat ?y ?viBakwi2 ?)
 =>
-(printout       ?*fp*   "(using-parser-ids         viSeRya-"?viBakwi"_"?viBakwi1"_"?viBakwi2"_saMbanXI "?x"    "?y")"crlf)
-(printout       ?*rel_debug*    "(Rule-Rel-ids  prep_IDIOM_2       viSeRya-"?viBakwi"_"?viBakwi1"_"?viBakwi2"_saMbanXI "?x"    "?y")"crlf)
+(printout       ?*fp*   "(using-parser-ids         viSeRya-"?viBakwi"_"?viBakwi1"_"?viBakwi2"_saMbanXI "?x"    "?c")"crlf)
+(printout       ?*rel_debug*    "(Rule-Rel-ids  prep_IDIOM_2       viSeRya-"?viBakwi"_"?viBakwi1"_"?viBakwi2"_saMbanXI "?x"    "?c")"crlf)
 )
 ;Ex. They are having a party in front of the building.
-
+;See the second linkage of this sentence for this rule.
 (defrule  rule145
 (root-verbchunk-tam-parser_chunkids ? ? ? $?chunk_ids ?x) ;Ex. this condition is to stop "kriyA-kqxanwa_viSeRaNa" in "It is important to note that it does not denote absolute past time ."
 (or (link_name-link_expansion ?TO_MVi   T O $?var) (link_name-link_expansion ?TO_MVi   M V i $?vari)) ;ex. for MVi condition: I sleep to take rest.
@@ -2307,8 +2336,8 @@ else
 (link_name-link_expansion ?I   I $?vari)
 (link_name-link_lnode-link_rnode ?I ?y ?z) 
 =>
-(printout	?*fp*	"(using-parser-ids 	kriyA-kqxanwa_viSeRaNa	"?x"	"?z")"crlf)	
-(printout	?*rel_debug*	"(Rule-Rel-ids	rule145	kriyA-kqxanwa_viSeRaNa	"?x"	"?z")"crlf)
+(printout	?*fp*	"(using-parser-ids 	kriyA-kqxanwa_karma	"?x"	"?z")"crlf)	
+(printout	?*rel_debug*	"(Rule-Rel-ids	rule145	kriyA-kqxanwa_karma	"?x"	"?z")"crlf)
 )
 ;Ex.     I am trying to be a good learner.  From in back of the shed , I heard a scream that seemed to come from on top of the garage
 
@@ -2318,8 +2347,8 @@ else
 (link_name-link_lnode-link_rnode ?TO ?x ?y)
 (link_name-link_lnode-link_rnode I ?y ?z)
 =>
-(printout	?*fp*	"(using-parser-ids 	kriyA-kq_vi	"?kriyA"	"?z")"crlf)	
-(printout	?*rel_debug*	"(Rule-Rel-ids	kriyA-kq_vi	kriyA-kqxanwa_viSeRaNa	"?kriyA"	"?z")"crlf)
+(printout	?*fp*	"(using-parser-ids 	kriyA-kqxanwa_karma	"?kriyA"	"?z")"crlf)	
+(printout	?*rel_debug*	"(Rule-Rel-ids	kriyA-kq_vi	kriyA-kqxanwa_karma	"?kriyA"	"?z")"crlf)
 )
 ;Ex.     
 
@@ -2329,17 +2358,24 @@ else
 (link_name-link_lnode-link_rnode MVg ?kriyA ?z)
 =>
 (printout	?*fp*	"(using-parser-ids 	kriyA-kqxanwa_viSeRaNa	"?kriyA"	"?z")"crlf)	
-(printout	?*rel_debug*	"(Rule-Rel-ids	kriyA-kq_vi_1	kriyA-kqxanwa_viSeRaNa	"?kriyA"	"?z")"crlf)
+(printout	?*rel_debug*	"(Rule-Rel-ids	kriyA-kq_vi1	kriyA-kqxanwa_viSeRaNa	"?kriyA"	"?z")"crlf)
 )
 ;Ex.  He walked out of the room, glaring coldly at Sarah. 
+;Link Parser's second linkage is correct for this sentence. In this sentence the relation between walked and glaring be "kriyA-kqxanwa_viSeRaNa" or kriyA-kqxanwa_kriyA_viSeRaNa" ?
+
 (defrule  kriyA-kq_vi2
 (link_name-link_lnode-link_rnode Pg    ?kriyA  ?kq_vi)
+(link_name-link_lnode-link_rnode Ox    ?kriyA  ?o)
 (link_name-link_lnode-link_rnode MVp   ?kq_vi  ?x)
 =>
-(printout	?*fp*	"(using-parser-ids 	kriyA-kqxanwa_viSeRaNa	"?kriyA"	"?kq_vi")"crlf)	
-(printout	?*rel_debug*	"(Rule-Rel-ids	kriyA-kq_vi2	kriyA-kqxanwa_viSeRaNa	"?kriyA"	"?kq_vi")"crlf)
+(printout	?*fp*	"(using-parser-ids 	kriyA-kqxanwa_karma	"?kriyA"	"?kq_vi")"crlf)	
+(printout	?*rel_debug*	"(Rule-Rel-ids	kriyA-kq_vi2	kriyA-kqxanwa_karma	"?kriyA"	"?kq_vi")"crlf)
+
+;(printout       ?*fp*   "(using-parser-ids	viSeRya-kqxanwa_viSeRaNa	"?o"	"?kq_vi")"crlf)
+;(printout       ?*rel_debug*    "(Rule-Rel-ids	kriyA-kq_vi2	viSeRya-kqxanwa_viSeRaNa	"?o"	"?kq_vi")"crlf)
 )
 ;Ex.    I saw her sitting in the garden.
+
 
 (defrule  rule_MVi
 (link_name-link_lnode-link_rnode Pa|Paf|Pam ?x ?y)
@@ -2351,7 +2387,8 @@ else
 (printout	?*fp*	"(using-parser-ids 	kriyA-kqxanwa_viSeRaNa	"(nth$  (length $?chunk_ids)    $?chunk_ids)"	"?a")"crlf)
 (printout	?*rel_debug*	"(Rule-Rel-ids	rule_MVi	kriyA-kqxanwa_viSeRaNa	"(nth$  (length $?chunk_ids)    $?chunk_ids)"	"?a")"crlf)
 )
-;Ex.   Dick is important to fix the problem. 
+;Ex.   Dick is important to fix the problem.
+;????????? should it be  kriyA-kqxanwa_viSeRaNa or kriyA-kqxanwa_karma ? 
 
 (defrule  rule148
 (link_name-link_lnode-link_rnode QI ?x ?y)
@@ -2451,10 +2488,11 @@ else
 ;Ex.     It is important that he go.
 
 (defrule  rule153
+(link_name-link_lnode-link_rnode MVp ?kri ?x)
 (link_name-link_lnode-link_rnode Ys ?x ?y)
 =>
-(printout	?*fp*	"(using-parser-ids 	aXikaraNa-bAra	"?y"	"?x")"crlf)	
-(printout	?*rel_debug*	"(Rule-Rel-ids	rule153	aXikaraNa-bAra	"?y"	"?x")"crlf)
+(printout	?*fp*	"(using-parser-ids 	kriyA-kAlavAcI	"?kri"	"?y")"crlf)	
+(printout	?*rel_debug*	"(Rule-Rel-ids	rule153	kriyA-kAlavAcI  "?kri"  "?y")"crlf)
 )
 ;Ex.    I'd like to see him 100 times a day.
 
@@ -2611,8 +2649,8 @@ else
 (link_name-link_lnode-link_rnode TOo ?z ?y)
 (link_name-link_lnode-link_rnode I ?y ?a)
 =>
-(printout	?*fp*	"(using-parser-ids 	kriyA-ke_liye	"?a"	"?y")"crlf)	
-(printout	?*rel_debug*	"(Rule-Rel-ids	rule167	kriyA-ke_liye	"?a"	"?y")"crlf)	
+;(printout	?*fp*	"(using-parser-ids 	kriyA-ke_liye	"?a"	"?y")"crlf)	
+;(printout	?*rel_debug*	"(Rule-Rel-ids	rule167	kriyA-ke_liye	"?a"	"?y")"crlf)	
 
 (printout	?*fp*	"(using-parser-ids 	kriyA-aBiprewa_kriyA	"?z"	"?a")"crlf)	
 (printout	?*rel_debug*	"(Rule-Rel-ids	rule167	kriyA-aBiprewa_kriyA	"?z"	"?a")"crlf)
@@ -2835,6 +2873,18 @@ else
 (printout	?*rel_debug*	"(Rule-Rel-ids	rule183	idiom_type_1	"?a"	"?b")"crlf)
 )
 ;Ex. 	 Passion is a must to reach your potential.
+
+(defrule how-to-drive
+(link_name-link_lnode-link_rnode  TOn ?how ?to)
+(link_name-link_lnode-link_rnode  I ?to ?drive)
+(linkid-word-node_cat ?how how ?)
+(linkid-word-node_cat ?to to ?)
+(linkid-word-node_cat ?drive drive ?)
+=>
+(printout       ?*fp*   "(using-parser-ids	idiom_type_1	"?how"	"?to")"crlf)
+(printout       ?*rel_debug*    "(Rule-Rel-ids	how-to-drive	idiom_type_1	"?how"	"?to"	"?drive")"crlf)
+)
+;Ex.	She knows how to drive a car .
 
 (defrule MVx+ID
 (link_name-link_expansion  ?ID    I D $?)
@@ -3087,6 +3137,7 @@ else
 (printout	?*rel_debug*	"(Rule-Rel-ids	kriyA_karwA	kriyA-karwA	"?d"	"?b")"	crlf)
 )
 ;Ex   I want the students to go. I want Rama to go. I want him to go
+
 (defrule wall-conjunction
 (link_name-link_lnode-link_rnode   Wc  ?a ?b)
 =>
@@ -3095,6 +3146,7 @@ else
 )
 ;Ex   But my efforts to win his heart have failed. And Jane screamed.
 ; This rule is just to give a name to the sentence initial conjunctions and this is not a relation.
+
 (defrule wall-conjunction_1
 (declare (salience 510))
 (link_name-link_expansion    ?W   W $?var)
@@ -3265,7 +3317,8 @@ else
 (printout	?*rel_debug*	"(Rule-Rel-ids	idiom_rule	kriyA-kqxanwa_viSeRaNa	"?rnode"	"?z")"crlf)
 )
 ;Ex Ravan is dead. This table is made up of wood
-;this kqxanwa_viSeRaNa occurs always in predicative position.
+;?????? This should be viSeRya-kqxanwa_viSeRaNa
+; this kqxanwa_viSeRaNa occurs always in predicative position.
 
 (defrule wh-stranded_prep
 (link_name-link_lnode-link_rnode MVp ?kriyA  ?prep)
@@ -3659,6 +3712,32 @@ else
 ;Ex. those are the boys who want to do it. Phil gave me a sweater which he bought in Paris.
 ;Ex.  Bhishma gave a sound piece of advice to Karna which he depended on during the war
 
+;(link_name-link_lnode-link_rnode E|Em ?x ?head_id)
+;(root-verbchunk-tam-parser_chunkids ? ? ? $?chunk_ids)
+;(test (member$ ?head_id $?chunk_ids))
+;=>
+;(printout ?*fp*   "(using-parser-ids    kriyA-kriyA_viSeRaNa    "(nth$  (length $?chunk_ids)    $?chunk_ids)"   "?x")"crlf)
+;(printout ?*rel_debug* "(Rule-Rel-ids  ruleEm  kriyA-kriyA_viSeRaNa  "(nth$  (length $?chunk_ids) $?chunk_ids)" "?x")"crlf)
+(defrule mu_kri-rel_kri_6
+(declare (salience 1000))
+(link_name-link_expansion  ?S   S $?vars)
+(link_name-link_lnode-link_rnode  ?S  ?sub ?mu_kri)
+;(root-verbchunk-tam-parser_chunkids ? ? ? $?chunk_ids)
+;(test (member$ ?mu_kri  $?chunk_ids))
+(link_name-link_lnode-link_rnode  PP   ?mu_kri ?mu)
+;(link_name-link_lnode-link_rnode  MVp   (nth$  (length $?chunk_ids)    $?chunk_ids) ?prep)
+(link_name-link_lnode-link_rnode  MVp   ?mu ?prep)
+(link_name-link_lnode-link_rnode  J|Js|Jp  ?prep ?ob)
+(link_name-link_expansion  ?B   B $?vari)
+(link_name-link_lnode-link_rnode  ?B  ?ob ?rel_kri)
+(link_name-link_expansion  ?R   R $?v)
+(link_name-link_lnode-link_rnode ?R  ?ob ?x)
+=>
+(printout       ?*fp*   "(using-parser-ids      muKya_vAkya-sApekRa_upavAkya    "?mu"       "?rel_kri")"crlf)
+(printout       ?*rel_debug*    "(Rule-Rel-ids	mu_kri-rel_kri_6	muKya_vAkya-sApekRa_upavAkya	"?mu"	"?rel_kri")"crlf)
+)
+;Ex. People on the earth had almost forgotten about the message they had sent to outer space.
+
 (defrule sub-jo_s
 (declare (salience 200))
 (link_name-link_expansion ?B   B $?var)
@@ -3817,4 +3896,15 @@ else
 )
 ;Ex : We convey our best wishes to the Chinmaya Dham Yatris .
  
+
+;Added by sheetal(8-01-10).
+(defrule Rn_Sp_I
+(link_name-link_lnode-link_rnode Rn ?x ?y)
+(link_name-link_lnode-link_rnode Sp ?y ?z)
+(link_name-link_lnode-link_rnode I ?z ?a)
+=>
+(printout       ?*fp*   "(using-parser-ids      kriyA-object    "?a"    "?x")"crlf)
+(printout       ?*rel_debug*    "(Rule-Rel-ids  Rn_Sp_I  kriyA-object    "?a"    "?x")"crlf)
+)
+;The question is who we should invite .
 

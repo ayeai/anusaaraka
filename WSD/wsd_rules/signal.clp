@@ -44,6 +44,23 @@
 (printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  signal.clp 	signal2   "  ?id "  saMkewa_kara )" crlf))
 )
 
+;Added by sheetal(30-12-09).
+(defrule signal3
+(declare (salience 4950))
+(id-root ?id signal)
+?mng <-(meaning_to_be_decided ?id)
+(id-cat_coarse ?id noun)
+(id-root ?id1 train)
+=>
+(retract ?mng)
+(assert (id-wsd_root_mng ?id signala))
+(if ?*debug_flag* then
+(printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  signal.clp    signal3   "  ?id "  signala )" crlf))
+)
+;The train waited at the outer signal .
+
+
+
 ;"signal","V","1.saMkewa_karanA/siganala_xenA"
 ;He was signaling for the removal of unwanted crowd.
 ;

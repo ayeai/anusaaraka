@@ -471,3 +471,18 @@
 (printout wsd_fp "(dir_name-file_name-rule_name-kriyA_id-subject_viBakwi   " ?*wsd_dir* "  it.clp      it30  "  ?id "  ne )" crlf))
 )
 
+
+;Modified by sheetal(2-01-10).
+(defrule it31
+(declare (salience 4500))
+(id-root ?id it)
+?mng <-(meaning_to_be_decided ?id)
+(id-root =(+ ?id 1) be )
+(id-root ?id1 dark)
+=>
+(retract ?mng)
+(assert (id-wsd_root_mng ?id -))
+(if ?*debug_flag* then
+(printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  it.clp       it31   "  ?id "  - )" crlf))
+)
+;It was so dark that I could not see anything . 

@@ -32,6 +32,7 @@ $HOME_anu_test/Browser/src/add_translation_path.pl $1 < $2/tmp/$1_tmp/jnk > $2/t
 sed -e '1,$s/float_clear"><\/div>/float_clear"\/>/
         1,$s/DOTDOTDOT/.../g
         1,$s/ABBRThatis/i.e./g
+ 	1,$s/aABBRDOTABBRkABBRDOTABBRaABBRDOTABBR/a.k.a./g
         1,$s/{number:/{/g
         1,$s/{vib:/{/g
         1,$s/{tam:है/{/g

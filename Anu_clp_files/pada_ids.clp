@@ -1,4 +1,5 @@
  (deffacts dummy_facts 
+ (kriyA-kqxanwa_karma) 
  (kriyA-samakAlika_kriyA) 
  (niReXawmaka_vAkya) 
  (kriyA-since_saMbanXI)
@@ -1621,7 +1622,7 @@
         (assert (has_been_included_in_paxa ?than))
         (assert (has_been_included_in_paxa ?paxa_head))
 	(printout	?*dbug*	"(Rule_name-pada_head_id-pada_type-ids	more_than	P"?paxa_head	"	PP	"?paxa_head"	"?than")"crlf)	
-        (assert (pada_info (group_head_id ?paxa_head) (group_cat PP) (group_ids   ?paxa_head ?than)))
+        (assert (pada_info (group_head_id ?paxa_head) (group_cat PP) (group_ids   ?paxa_head)(preposition ?than)))
  )
 
 

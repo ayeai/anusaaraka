@@ -4,7 +4,8 @@
 
 (deftemplate pada_info (slot group_head_id (default 0))(slot group_cat (default 0))(multislot group_ids (default 0))(slot vibakthi (default 0))(slot gender (default 0))(slot number (default 0))(slot case (default 0))(slot person (default 0))(slot H_tam (default 0))(slot tam_source (default 0))(slot preceeding_part_of_verb (default 0)) (slot preposition (default 0))(slot Hin_position (default 0)))
 
- (deffacts dummy_facts
+ (deffacts dummy_facts 
+ (kriyA-kqxanwa_karma)
  (id-TAM)
  (kriyA-samakAlika_kriyA)
  (niReXawmaka_vAkya)
@@ -1300,8 +1301,7 @@
   (declare (salience 960))
   (pada_info (group_head_id ?pada_id)(group_cat PP)(number ?num)(gender ?gen)(person ?person)(H_tam we_hue))
   ?f0<-(id-HM-source ?pada_id ?hmng ?)
-  (id-cat_coarse ?pada_id adverb)
-  (kriyA-kqxanwa_viSeRaNa  ? ?pada_id)
+  (id-cat_coarse ?pada_id wA_huA_kqxanwa)
   =>
         (retract ?f0)
         (printout ?*A_fp5* "(id-Apertium_input "?pada_id " root:"?hmng ",tam:adv_we_hue,gen:"?gen",num:"?num ",per:"?person")"  crlf)

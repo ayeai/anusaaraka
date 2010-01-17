@@ -71,6 +71,9 @@
 
  (printout       ?*fp*   "(using-parser-ids    kriyA-GNP_agr_subject       "?kriyA"        "?GNP_sub   ")"crlf)
  (printout       ?*dbug* "(Rule-Rel-ids  nsubj_expl   kriyA-GNP_agr_subject   "?kriyA"        "?GNP_sub   ")"crlf)
+
+ (printout       ?*fp*   "(using-parser-ids    kriyA-kAlavAcI       "?kriyA"        "?sub   ")"crlf)
+ (printout       ?*dbug* "(Rule-Rel-ids  nsubj_expl   kriyA-kAlavAcI   "?kriyA"        "?sub   ")"crlf)
   (assert (sub_for_kriyA ?kriyA))
  )
  ;Added by Shirisha Manju
@@ -101,15 +104,15 @@
         (assert (sub_for_kriyA ?kri))
  )
  ;Added by Shirisha Manju
- ;Ex : Broken windows need to be replaced .
-
+ ;Ex : Broken windows need to be replaced . 
+ 
  (defrule nsubj_conj
  (rel_name-sids nsubj|nsubjpass ?kriyA ?sub) 
  (rel_name-sids conj  ?kriyA ?kriyA1)
  (not (rel_name-sids nsubj ?kriyA1 ?))
  =>
 	(printout       ?*fp*   "(using-parser-ids     kriyA-subject    "?kriyA1"        "?sub   ")"crlf)
-	(printout       ?*dbug* "(Rule-Rel-ids  nsubj   nsubj_conj   "?kriyA1"        "?sub   ")"crlf)
+	(printout       ?*dbug* "(Rule-Rel-ids  nsubj_conj    kriyA-subject      "?kriyA1"        "?sub   ")"crlf)
  )
  ; Added by Mahalaxmi.
  ; Ex. He may drink milk or eat apples .
@@ -119,7 +122,7 @@
 (rel_name-sids conj  ?sub ?sub1)
 =>
 (printout       ?*fp*   "(using-parser-ids     kriyA-subject    "?kriyA"        "?sub1   ")"crlf)
-(printout       ?*dbug* "(Rule-Rel-ids  nsubj   nsubj_conj1   "?kriyA"        "?sub1   ")"crlf)
+(printout       ?*dbug* "(Rule-Rel-ids  nsubj_conj1  kriyA-subject  "?kriyA"        "?sub1   ")"crlf)
 )
 
  ; Added by Mahalaxmi.
@@ -198,8 +201,7 @@
 (declare(salience 100))
 (rel_name-sids nsubj|nsubjpass ?samAnAXikaraNa  ?sub)
 (rel_name-sids cop  ?samAnAXikaraNa ?kriyA)
-;(s_id-word ?sub ?wrd&~It&~it) ;Added by Shirisha Manju Ex: It is likely they will come .
-; (not (sub_id_decided ?sub))
+(not (rel_name-sids conj  ?sub ?))
 =>
 (printout       ?*fp*   "(using-parser-ids     kriyA-subject    "?kriyA"        "?sub   ")"crlf)
 (printout      ?*dbug* "(Rule-Rel-ids  cop+nsubj       kriyA-subject   "?kriyA"        "?sub   ")"crlf)
@@ -233,18 +235,19 @@
 (declare(salience 200))
  ?f1<-(rel_name-sids nsubj ?samAnAXikaraNa  ?sub)
 ?f2<- (rel_name-sids cop  ?samAnAXikaraNa ?kriyA)
- ?f0<-(rel_name-sids conj_and ?samAnAXikaraNa ?samAnAXikaraNa_1)
+?f0<-(rel_name-sids conj_and|conj ?sub ?samAnAXikaraNa_1)
 =>
-(retract ?f0 ?f1 )
 (printout	?*fp*	"(using-parser-ids     subject-subject_samAnAXikaraNa	"?sub"	"?samAnAXikaraNa	")"crlf)
 (printout	?*dbug*	"(Rule-Rel-ids	cop+nsubj_1	subject-subject_samAnAXikaraNa	"?sub"	"?samAnAXikaraNa	")"crlf)
 
-(printout       ?*fp*   "(using-parser-ids     subject-subject_samAnAXikaraNa  "?sub"  "?samAnAXikaraNa_1       ")"crlf)    
-(printout       ?*dbug* "(Rule-Rel-ids  cop+nsubj_1     subject-subject_samAnAXikaraNa  "?sub"  "?samAnAXikaraNa_1      ")"crlf)
+(printout       ?*fp*   "(using-parser-ids     subject-subject_samAnAXikaraNa  "?samAnAXikaraNa_1  " " ?samAnAXikaraNa   ")"crlf)    
+(printout       ?*dbug* "(Rule-Rel-ids  cop+nsubj_1     subject-subject_samAnAXikaraNa  "?samAnAXikaraNa_1 " "?samAnAXikaraNa     ")"crlf)
 
-;(printout	?*fp*	"(using-parser-ids     kriyA-subject	"?kriyA"	"?sub	")"crlf)	
-;(printout	?*dbug*	"(Rule-Rel-ids	cop+nsubj_1	kriyA-subject	"?kriyA"	"?sub	")"crlf)	
+(printout	?*fp*	"(using-parser-ids     kriyA-subject	"?kriyA"	"?sub	")"crlf)	
+(printout	?*dbug*	"(Rule-Rel-ids	cop+nsubj_1	kriyA-subject	"?kriyA"	"?sub	")"crlf)	
 )
+ ; Modified by Shirisha Manju
+ ; Ex : He and I are friends . 
 
 
 (defrule dobj
@@ -289,6 +292,20 @@
  )
  ;Added by Shirisha Manju
  ; Ex: It is not a good manner to eat alone .
+
+(defrule poss_conj
+(declare (salience 10))
+?f0<-(rel_name-sids poss ?RaRTI_viSeRya ?RaRTI_viSeRaNa)
+(rel_name-sids conj ?RaRTI_viSeRya ?RaRTI_viSeRya1)
+=>
+ (retract ?f0)
+(printout       ?*fp*   "(using-parser-ids     viSeRya-RaRTI_viSeRaNa   "?RaRTI_viSeRya"        "?RaRTI_viSeRaNa        ")"crlf)
+(printout       ?*dbug* "(Rule-Rel-ids  poss_conj    viSeRya-RaRTI_viSeRaNa  "?RaRTI_viSeRya"        "?RaRTI_viSeRaNa        ")"crlf)
+(printout       ?*fp*   "(using-parser-ids     viSeRya-RaRTI_viSeRaNa   "?RaRTI_viSeRya1"        "?RaRTI_viSeRaNa        ")"crlf)
+(printout       ?*dbug* "(Rule-Rel-ids  poss_conj   viSeRya-RaRTI_viSeRaNa  "?RaRTI_viSeRya1"        "?RaRTI_viSeRaNa        ")"crlf)
+)
+ ;Added by Shirisha Manju
+ ;Your house and garden are very attractive .
 
 (defrule poss
 (rel_name-sids poss ?RaRTI_viSeRya ?RaRTI_viSeRaNa)
@@ -405,17 +422,6 @@
 (printout	?*dbug*	"(Rule-Rel-ids	amod	viSeRya-viSeRaNa	"?viSeRya"	"?viSeRaNa	")"crlf)	
 )
  ; Ex. Sam eats red meat.
-
-(defrule amod+dep
-(rel_name-sids amod ?viSeRya ?k)
-(rel_name-sids dep ?k ?viSeRaNa)
-=>
-(printout       ?*fp*   "(using-parser-ids     viSeRya-viSeRaNa "?viSeRya"      "?viSeRaNa      ")"crlf)
-(printout       ?*dbug* "(Rule-Rel-ids  amod    viSeRya-viSeRaNa        "?viSeRya"      "?viSeRaNa      ")"crlf)
-)
- ; Ex.A big , black , ugly dog chased me . 
- ; Added by Mahalaxmi(23-11-10).
-
 
 (defrule partmod
 (rel_name-sids partmod ?viSeRya ?kqxanwa_viSeRaNa)
@@ -653,8 +659,8 @@
 (rel_name-sids rcmod ?x ?kri)
 (s_id-word ?wh who|which|when|whom)
 =>
-(printout       ?*fp*   "(using-parser-ids     viSeRya-jo_samAnAXikaraNa   "       ?sub" "?wh")"crlf)
-(printout       ?*dbug* "(Rule-Rel-ids  rel+nsubj+wh       viSeRya-jo_samAnAXikaraNa   "       ?sub" "?wh")"crlf)
+(printout       ?*fp*   "(using-parser-ids     viSeRya-jo_samAnAXikaraNa   "       ?x" "?wh")"crlf)
+(printout       ?*dbug* "(Rule-Rel-ids  rel+nsubj+wh       viSeRya-jo_samAnAXikaraNa   "       ?x" "?wh")"crlf)
 )
  ; Ex. I saw the man who you love. I saw the man whose wife you love.
 
@@ -677,7 +683,6 @@
 
 (defrule dep
 (rel_name-sids dep ?governor ?dependent)
-(not (rel_name-sids amod ? ?governor))
 =>
 (printout	?*fp*	"(using-parser-ids     viSeRya-viSeRaNa	"	?governor"	"?dependent")"crlf)	
 (printout	?*dbug*	"(Rule-Rel-ids	dep	viSeRya-viSeRaNa	"	?governor"	"?dependent")"crlf)	
@@ -730,8 +735,8 @@
 (rel_name-sids xcomp  ?kri ?kq_vi)
 (not (rel_name-sids cop ?kq_vi ?)) ;Added by Shirisha Manju 
 =>
-(printout       ?*fp*   "(using-parser-ids     kriyA-kqxanwa_viSeRaNa	"	?kri"    "?kq_vi")"crlf)
-(printout       ?*dbug* "(Rule-Rel-ids  xcomp	kriyA-kqxanwa_viSeRaNa	"	?kri"	"?kq_vi")"crlf)
+(printout       ?*fp*   "(using-parser-ids     kriyA-kqxanwa_karma	"	?kri"    "?kq_vi")"crlf)
+(printout       ?*dbug* "(Rule-Rel-ids  xcomp	kriyA-kqxanwa_karma	"	?kri"	"?kq_vi")"crlf)
 )
  ; Ex. I want to go. Dick is important to fix the problem.
  ;It struggled to force its body through that little hole . 
@@ -740,8 +745,8 @@
  (rel_name-sids xcomp ?kri ?id)
  (rel_name-sids cop ?id ?kq_vi)
  =>
- 	(printout	?*fp*   "(using-parser-ids     kriyA-kqxanwa_viSeRaNa   "       ?kri"    "?kq_vi")"crlf)
-	(printout	?*dbug* "(Rule-Rel-ids  xcomp+cop   kriyA-kqxanwa_viSeRaNa  "       ?kri"   "?kq_vi")"crlf)
+ 	(printout	?*fp*   "(using-parser-ids     kriyA-kqxanwa_karma   "       ?kri"    "?kq_vi")"crlf)
+	(printout	?*dbug* "(Rule-Rel-ids  xcomp+cop   kriyA-kqxanwa_karma  "       ?kri"   "?kq_vi")"crlf)
 	(printout       ?*fp*   "(using-parser-ids     kriyA-object     "?kq_vi"        "?id   ")"crlf)
         (printout       ?*dbug* "(Rule-Rel-ids  xcomp+cop    kriyA-object    "?kq_vi"        "?id   ")"crlf)
 
@@ -783,10 +788,34 @@
 (rel_name-sids infmod  ?saMjFA ?kqxanwa)
  =>
 (printout       ?*fp*   "(using-parser-ids     saMjFA-kqxanwa        "       ?saMjFA"    "?kqxanwa")"crlf)
-(printout       ?*dbug* "(Rule-Rel-ids  quantmod   saMjFA-kqxanwa        "       ?saMjFA"    "?kqxanwa")"crlf)
+(printout       ?*dbug* "(Rule-Rel-ids  infmod   saMjFA-kqxanwa        "       ?saMjFA"    "?kqxanwa")"crlf)
 )
  ; Ex. But my efforts to win his heart have failed . 
  ;Added by Mahalaxmi.
+
+ (defrule cc_rule
+ (rel_name-sids cc ? L1)
+ (s_id-word L1 But|And)
+ =>
+	(printout       ?*fp*   "(using-parser-ids     wall_conjunction        L1)"crlf)
+	(printout       ?*dbug* "(Rule-Rel-ids  cc_rule   wall_conjunction       L1)"crlf)
+ )
+ ; Ex. But my efforts to win his heart have failed . 
+ ;Added by Shirisha Manju
+
+ (defrule prep_nsubj_advmod_rule
+ (declare (salience 100))
+ ?f<-(rel_name-sids  nsubj|nsubjpass|aux|auxpass ?kriyA ?)
+ ?f0<-(rel_name-sids prep ?kriyA ?prep)
+ ?f1<-(rel_name-sids advmod ?kriyA ?prep_saM)
+ (s_id-word ?prep ?prp&~than)
+=>
+(printout      ?*fp*   "(using-parser-ids     kriyA-"(lowcase ?prp)"_saMbanXI        "       ?kriyA" "?prep_saM")"crlf)
+(printout      ?*dbug* "(Rule-Rel-ids   prep_p  kriyA-"?prp"_saMbanXI        "       ?kriyA" "?prep_saM")"crlf)
+)
+  ; Ex : Where are you coming from ?
+  ; Added by Shirisha Manju
+
 
 
 ;rel+nsubj rel+nsubj+wh rules are not working properly. Check them.

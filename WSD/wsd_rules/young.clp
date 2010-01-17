@@ -97,3 +97,18 @@
 ;She is too young for marriage.
 ;
 ;
+
+;Added by sheetal(30-12-09).
+(defrule young7
+(declare (salience 4550))
+(id-root ?id young)
+?mng <-(meaning_to_be_decided ?id)
+(viSeRya-for_saMbanXI ?id ?id1)
+(id-root ?id1 marriage)
+=>
+(retract ?mng)
+(assert (id-wsd_root_mng ?id CotA))
+(if ?*debug_flag* then
+(printout wsd_fp "(dir_name-file_name-rule_name-id-wsd_root_mng   " ?*wsd_dir* "  young.clp     young7   "  ?id "  CotA )" crlf))
+)
+;She is too young for marriage .

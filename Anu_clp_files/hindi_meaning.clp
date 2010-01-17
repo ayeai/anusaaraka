@@ -1,6 +1,7 @@
  (defglobal ?*hin_mng_file* = fp)
 
  (deffacts dummy_facts 
+ (kriyA-kqxanwa_karma) 
  (affecting_id-affected_ids-wsd_group_root_mng) 
  (affecting_id-affected_ids-wsd_group_word_mng)
  (kriyA-samakAlika_kriyA) 

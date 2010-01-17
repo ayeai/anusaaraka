@@ -13,12 +13,13 @@
 (printout wsd_fp "(dir_name-file_name-rule_name-make_verbal_noun " ?*wsd_dir* "  ing_tam.clp  	ing_tam0  "  ?id " )" crlf))
 )
 
+;I saw him telling her about the party 
 ;Default is wA_huA
 (defrule ing_tam1
 (declare (salience 4900))
 (id-TAM ?id ing)
 ?mng <-(meaning_to_be_decided ?id)
-(id-cat_coarse ?id adverb)
+(id-cat_coarse ?id wA_huA_kqxanwa)
 =>
 (retract ?mng)
 (assert (id-E_tam-H_tam_mng ?id ing we_hue))
